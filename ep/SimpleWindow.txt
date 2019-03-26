@@ -1,0 +1,20 @@
+Boulder:
+WindowMaterial:SimpleGlazingSystem,
+	SimpleWindow, !- Name
+	0.259581346, !- U-Factor
+	0.365, !- Solar Heat Gain Coefficient
+	0.452; !- Visible Transmittance
+	
+Chicago:
+WindowMaterial:SimpleGlazingSystem,
+	SimpleWindow, !- Name
+	0.259581346, !- U-Factor
+	0.365, !- Solar Heat Gain Coefficient
+	0.452; !- Visible Transmittance
+
+Phoenix:
+WindowMaterial:SimpleGlazingSystem,
+	SimpleWindow, !- Name
+	0.259581346, !- U-Factor
+	0.249, !- Solar Heat Gain Coefficient
+	0.312; !- Visible Transmittance

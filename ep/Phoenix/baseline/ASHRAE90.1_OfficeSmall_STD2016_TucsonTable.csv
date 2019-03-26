@@ -1,0 +1,2210 @@
+Program Version:,EnergyPlus, Version 8.6.0-198c6a3cff, YMD=2019.03.03 19:03
+Tabular Output Report in Format: ,Comma
+
+Building:,Small Office
+Environment:,Phoenix Sky Harbor Intl Ap AZ USA TMY3 WMO#=722780
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Building Utility Performance Summary
+FOR:,Entire Facility
+Values gathered over      8760.00 hours
+
+Site and Source Energy
+
+,,Total Energy [GJ],Energy Per Total Building Area [MJ/m2],Energy Per Conditioned Building Area [MJ/m2]
+,Total Site Energy,156.73,306.62,306.62
+,Net Site Energy,156.73,306.62,306.62
+,Total Source Energy,496.34,971.00,971.00
+,Net Source Energy,496.34,971.00,971.00
+
+
+Site to Source Energy Conversion Factors
+
+,,Site=>Source Conversion Factor
+,Electricity,3.167
+,Natural Gas,1.084
+,District Cooling,1.056
+,District Heating,3.613
+,Steam,0.300
+,Gasoline,1.050
+,Diesel,1.050
+,Coal,1.050
+,Fuel Oil #1,1.050
+,Fuel Oil #2,1.050
+,Propane,1.050
+,Other Fuel 1,1.000
+,Other Fuel 2,1.000
+
+
+Building Area
+
+,,Area [m2]
+,Total Building Area,511.16
+,Net Conditioned Building Area,511.16
+,Unconditioned Building Area,0.00
+
+
+End Uses
+
+,,Electricity [GJ],Natural Gas [GJ],Additional Fuel [GJ],District Cooling [GJ],District Heating [GJ],Water [m3]
+,Heating,0.78,0.01,0.00,0.00,0.00,0.00
+,Cooling,30.03,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,32.21,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,5.71,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,48.29,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,21.69,0.00,0.00,0.00,0.00,0.00
+,Pumps,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,18.01,0.00,0.00,0.00,0.00,58.31
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,156.72,0.01,0.00,0.00,0.00,58.31
+Note: Electricity appears to be the principal heating source based on energy usage.
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [GJ],Natural Gas [GJ],Additional Fuel [GJ],District Cooling [GJ],District Heating [GJ],Water [m3]
+,Heating,General,0.78,0.01,0.00,0.00,0.00,0.00
+,Cooling,General,30.03,0.00,0.00,0.00,0.00,0.00
+,Interior Lighting,General,32.21,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,5.71,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,General,48.29,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,Fan Energy,21.69,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Water Systems,Water Heater,18.01,0.00,0.00,0.00,0.00,29.16
+,,General,0.00,0.00,0.00,0.00,0.00,29.16
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+,,Electricity Intensity [MJ/m2],Natural Gas Intensity [MJ/m2],Additional Fuel Intensity [MJ/m2],District Cooling Intensity [MJ/m2],District Heating Intensity [MJ/m2],Water Intensity [m3/m2]
+,Lighting,74.17,0.00,0.00,0.00,0.00,0.00
+,HVAC,137.94,0.03,0.00,0.00,0.00,0.11
+,Other,94.48,0.00,0.00,0.00,0.00,0.00
+,Total,306.59,0.03,0.00,0.00,0.00,0.11
+
+
+Utility Use Per Total Floor Area
+
+,,Electricity Intensity [MJ/m2],Natural Gas Intensity [MJ/m2],Additional Fuel Intensity [MJ/m2],District Cooling Intensity [MJ/m2],District Heating Intensity [MJ/m2],Water Intensity [m3/m2]
+,Lighting,74.17,0.00,0.00,0.00,0.00,0.00
+,HVAC,137.94,0.03,0.00,0.00,0.00,0.11
+,Other,94.48,0.00,0.00,0.00,0.00,0.00
+,Total,306.59,0.03,0.00,0.00,0.00,0.11
+
+
+Electric Loads Satisfied
+
+,,Electricity [GJ],Percent Electricity [%]
+,Fuel-Fired Power Generation,0.000,0.00
+,High Temperature Geothermal*,0.000,0.00
+,Photovoltaic Power,0.000,0.00
+,Wind Power,0.000,0.00
+,Power Conversion,0.000,0.00
+,Net Decrease in On-Site Storage,0.000,0.00
+,Total On-Site Electric Sources,0.000,0.00
+,,,
+,Electricity Coming From Utility,156.716,100.00
+,Surplus Electricity Going To Utility,0.000,0.00
+,Net Electricity From Utility,156.716,100.00
+,,,
+,Total On-Site and Utility Electric Sources,156.716,100.00
+,Total Electricity End Uses,156.716,100.00
+
+
+On-Site Thermal Sources
+
+,,Heat [GJ],Percent Heat [%]
+,Water-Side Heat Recovery,0.00,
+,Air to Air Heat Recovery for Cooling,0.00,
+,Air to Air Heat Recovery for Heating,0.00,
+,High-Temperature Geothermal*,0.00,
+,Solar Water Thermal,0.00,
+,Solar Air Thermal,0.00,
+,Total On-Site Thermal Sources,0.00,
+
+
+Water Source Summary
+
+,,Water [m3],Percent Water [%]
+,Rainwater Collection,0.00,0.00
+,Condensate Collection,0.00,0.00
+,Groundwater Well,0.00,0.00
+,Total On Site Water Sources,0.00,0.00
+,-,-,-
+,Initial Storage,0.00,0.00
+,Final Storage,0.00,0.00
+,Change in Storage,0.00,0.00
+,-,-,-
+,Water Supplied by Utility,58.31,100.00
+,-,-,-
+,Total On Site, Change in Storage, and Utility Water Sources,58.31,100.00
+,Total Water End Uses,58.31,100.00
+
+
+Setpoint Not Met Criteria
+
+,,Degrees [deltaC]
+,Tolerance for Zone Heating Setpoint Not Met Time,0.20
+,Tolerance for Zone Cooling Setpoint Not Met Time,0.20
+
+
+Comfort and Setpoint Not Met Summary
+
+,,Facility [Hours]
+,Time Setpoint Not Met During Occupied Heating,1.50
+,Time Setpoint Not Met During Occupied Cooling,453.33
+,Time Not Comfortable Based on Simple ASHRAE 55-2004,701.33
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.
+----------------------------------------------------------------------------------------------------
+REPORT:,Input Verification and Results Summary
+FOR:,Entire Facility
+General
+
+,,Value
+,Program Version and Build,EnergyPlus, Version 8.6.0-198c6a3cff, YMD=2019.03.03 19:03
+,RunPeriod,Phoenix Sky Harbor Intl Ap AZ USA TMY3 WMO#=722780
+,Weather File,Phoenix Sky Harbor Intl Ap AZ USA TMY3 WMO#=722780
+,Latitude [deg],33.45
+,Longitude [deg],-112.0
+,Elevation [m],337.00
+,Time Zone,-7.0
+,North Axis Angle [deg],0.00
+,Rotation for Appendix G [deg],0.00
+,Hours Simulated [hrs],8760.00
+
+
+ENVELOPE
+Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],281.51,84.45,56.30,84.45,56.30
+,Above Ground Wall Area [m2],281.51,84.45,56.30,84.45,56.30
+,Window Opening Area [m2],59.68,16.73,11.16,20.64,11.16
+,Gross Window-Wall Ratio [%],21.20,19.81,19.81,24.44,19.81
+,Above Ground Window-Wall Ratio [%],21.20,19.81,19.81,24.44,19.81
+
+
+Conditioned Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],281.51,84.45,56.30,84.45,56.30
+,Above Ground Wall Area [m2],281.51,84.45,56.30,84.45,56.30
+,Window Opening Area [m2],59.68,16.73,11.16,20.64,11.16
+,Gross Window-Wall Ratio [%],21.20,19.81,19.81,24.44,19.81
+,Above Ground Window-Wall Ratio [%],21.20,19.81,19.81,24.44,19.81
+
+
+Skylight-Roof Ratio
+
+,,Total
+,Gross Roof Area [m2],598.76
+,Skylight Area [m2],0.00
+,Skylight-Roof Ratio [%],0.00
+
+
+PERFORMANCE
+Zone Summary
+
+,,Area [m2],Conditioned (Y/N),Part of Total Floor Area (Y/N),Volume [m3],Multipliers,Above Ground Gross Wall Area [m2],Underground Gross Wall Area [m2],Window Glass Area [m2],Opening Area [m2],Lighting [W/m2],People [m2 per person],Plug and Process [W/m2]
+,CORE_ZN,149.66,Yes,Yes,456.46,1.00,0.00,0.00,0.00,0.00,8.5035,16.59,6.7800
+,PERIMETER_ZN_1,113.45,Yes,Yes,346.02,1.00,84.45,0.00,20.64,20.64,8.5035,16.59,6.7800
+,PERIMETER_ZN_2,67.30,Yes,Yes,205.26,1.00,56.30,0.00,11.16,11.16,8.5035,16.59,6.7800
+,PERIMETER_ZN_3,113.45,Yes,Yes,346.02,1.00,84.45,0.00,16.73,16.73,8.5035,16.59,6.7800
+,PERIMETER_ZN_4,67.30,Yes,Yes,205.26,1.00,56.30,0.00,11.16,11.16,8.5035,16.59,6.7800
+,ATTIC,567.98,No,No,720.19,1.00,0.00,0.00,0.00,0.00,,,
+,Total,511.16,,,1559.03,,281.51,0.00,59.68,59.68,8.5035,16.59,6.7800
+,Conditioned Total,511.16,,,1559.03,,281.51,0.00,59.68,59.68,8.5035,16.59,6.7800
+,Unconditioned Total,567.98,,,720.19,,0.00,0.00,0.00,0.00,0.0000,,0.0000
+,Not Part of Total,567.98,,,720.19,,0.00,0.00,0.00,0.00,0.0000,,0.0000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Climatic Data Summary
+FOR:,Entire Facility
+SizingPeriod:DesignDay
+
+,,Maximum Dry Bulb [C],Daily Temperature Range [deltaC],Humidity Value,Humidity Type,Wind Speed [m/s],Wind Direction
+,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,0.50,0.00,0.50,Wetbulb [C],2.10,140.00
+,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,40.80,13.30,18.50,Wetbulb [C],4.80,310.00
+
+
+Weather Statistics File
+
+,,Value
+,Reference,USA_AZ_Phoenix-Sky.Harbor.Intl.AP.722780_TMY3
+,Site:Location,Phoenix Sky Harbor Intl Ap AZ USA
+,Latitude,{N 33° 27'}
+,Longitude,{W 111° 58'}
+,Time Zone,{GMT -7.0 Hours}
+,Elevation (m) above sea level,337
+,Standard Pressure at Elevation,97342Pa
+,Data Source,TMY3
+,WMO Station,722780
+,Weather File Design Conditions,Climate Design Data 2009 ASHRAE Handbook
+,Heating Design Temperature 99.6% (C),3.7°
+,Heating Design Temperature 99% (C),5.2°
+,Cooling Design Temperature 0.4% (C),43.4°
+,Cooling Design Temperature 1% (C),42.3°
+,Cooling Design Temperature 2% (C),41.2°
+,Maximum Dry Bulb Temperature (C),44.4°
+,Maximum Dry Bulb Occurs on,Jul 16
+,Minimum Dry Bulb Temperature (C),2.2°
+,Minimum Dry Bulb Occurs on,Dec 14
+,Maximum Dew Point Temperature (C),23.3°
+,Maximum Dew Point Occurs on,Jul 20
+,Minimum Dew Point Temperature (C),-22.2°
+,Minimum Dew Point Occurs on,Apr 20
+,ASHRAE Handbook 2009  Cooling Degree-Days (base 10°C),5067
+,Weather File Cooling Degree-Days (base 10°C),5066
+,ASHRAE Handbook 2009 Heating Degree-Days (base 18.3°C),523
+,Weather File Heating Degree-Days (base 18°C),543
+,Köppen Classification,BWh
+,Köppen Description,Subtropical hot desert (lat. 15-25°N)
+,Köppen Recommendation,Unbearably hot dry periods in summer, but passive cooling is possible
+,ASHRAE Climate Zone,1B
+,ASHRAE Description,Very Hot-Dry
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Envelope Summary
+FOR:,Entire Facility
+Opaque Exterior
+
+,,Construction,Reflectance,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Net Area [m2],Azimuth [deg],Tilt [deg],Cardinal Direction
+,CORE_ZN_FLOOR,EXT_SLAB_8IN_WITH_CARPET,0.30,2.144,3.285,149.66,149.66,270.00,180.00,
+,PERIMETER_ZN_1_WALL_SOUTH,NONRES_EXT_WALL,0.30,0.505,0.547,84.45,63.82,180.00,90.00,S
+,PERIMETER_ZN_1_FLOOR,EXT_SLAB_8IN_WITH_CARPET,0.30,2.144,3.285,113.45,113.45,135.00,180.00,
+,PERIMETER_ZN_2_WALL_EAST,NONRES_EXT_WALL,0.30,0.505,0.547,56.30,45.15,90.00,90.00,E
+,PERIMETER_ZN_2_FLOOR,EXT_SLAB_8IN_WITH_CARPET,0.30,2.144,3.285,67.30,67.30,270.00,180.00,
+,PERIMETER_ZN_3_WALL_NORTH,NONRES_EXT_WALL,0.30,0.505,0.547,84.45,63.82,0.00,90.00,N
+,PERIMETER_ZN_3_FLOOR,EXT_SLAB_8IN_WITH_CARPET,0.30,2.144,3.285,113.45,113.45,180.00,180.00,
+,PERIMETER_ZN_4_WALL_WEST,NONRES_EXT_WALL,0.30,0.505,0.547,56.30,45.15,270.00,90.00,W
+,PERIMETER_ZN_4_FLOOR,EXT_SLAB_8IN_WITH_CARPET,0.30,2.144,3.285,67.30,67.30,90.00,180.00,
+,ATTIC_SOFFIT_WEST,EXT_SOFFIT_FLOOR,0.30,3.082,7.547,11.44,11.44,270.00,180.00,
+,ATTIC_SOFFIT_SOUTH,EXT_SOFFIT_FLOOR,0.30,3.082,7.547,16.97,16.97,225.00,180.00,
+,ATTIC_SOFFIT_EAST,EXT_SOFFIT_FLOOR,0.30,3.082,7.547,11.44,11.44,45.00,180.00,
+,ATTIC_SOFFIT_NORTH,EXT_SOFFIT_FLOOR,0.30,3.082,7.547,16.97,16.97,315.00,180.00,
+,ATTIC_ROOF_NORTH,ATTICROOFDECK,0.30,2.858,4.706,197.51,197.51,0.00,18.45,
+,ATTIC_ROOF_WEST,ATTICROOFDECK,0.30,2.858,4.706,101.87,101.87,270.00,18.45,
+,ATTIC_ROOF_EAST,ATTICROOFDECK,0.30,2.858,4.706,101.87,101.87,90.00,18.45,
+,ATTIC_ROOF_SOUTH,ATTICROOFDECK,0.30,2.858,4.706,197.51,197.51,180.00,18.45,
+
+
+Exterior Fenestration
+
+,,Construction,Glass Area [m2],Frame Area [m2],Divider Area [m2],Area of One Opening [m2],Area of Multiplied Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Frame Conductance [W/m2-K],Divider Conductance [W/m2-K],Shade Control,Parent Surface,Azimuth [deg],Tilt [deg],Cardinal Direction
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_1,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_2,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_3,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_4,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_5,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_WINDOW_6,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_1_WALL_SOUTH_DOOR,WINDOW_U_0.58_SHGC_0.25,3.91,0.00,0.00,3.91,3.91,3.290,0.249,0.312,,,No,PERIMETER_ZN_1_WALL_SOUTH,180.00,90.00,S
+,PERIMETER_ZN_2_WALL_EAST_WINDOW_4,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_2_WALL_EAST,90.00,90.00,E
+,PERIMETER_ZN_2_WALL_EAST_WINDOW_3,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_2_WALL_EAST,90.00,90.00,E
+,PERIMETER_ZN_2_WALL_EAST_WINDOW_2,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_2_WALL_EAST,90.00,90.00,E
+,PERIMETER_ZN_2_WALL_EAST_WINDOW_1,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_2_WALL_EAST,90.00,90.00,E
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_1,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_2,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_3,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_4,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_5,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_3_WALL_NORTH_WINDOW_6,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_3_WALL_NORTH,0.00,90.00,N
+,PERIMETER_ZN_4_WALL_WEST_WINDOW_4,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_4_WALL_WEST,270.00,90.00,W
+,PERIMETER_ZN_4_WALL_WEST_WINDOW_3,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_4_WALL_WEST,270.00,90.00,W
+,PERIMETER_ZN_4_WALL_WEST_WINDOW_2,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_4_WALL_WEST,270.00,90.00,W
+,PERIMETER_ZN_4_WALL_WEST_WINDOW_1,WINDOW_U_0.58_SHGC_0.25,2.79,0.00,0.00,2.79,2.79,3.290,0.249,0.312,,,No,PERIMETER_ZN_4_WALL_WEST,270.00,90.00,W
+,Total or Average,,,,,,59.68,3.290,0.249,0.312,,,,,,,
+,North Total or Average,,,,,,16.73,3.290,0.249,0.312,,,,,,,
+,Non-North Total or Average,,,,,,42.95,3.290,0.249,0.312,,,,,,,
+
+
+Interior Fenestration
+
+,,Construction,Area of One Opening [m2],Area of Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Parent Surface
+,Total or Average,,,0.00,-,-,-,
+
+
+Exterior Door
+
+,,Construction,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Parent Surface
+,PERIMETER_ZN_3_WALL_NORTH_DOOR1,SWINGING DOOR_CON,1.598,2.101,1.95,PERIMETER_ZN_3_WALL_NORTH
+,PERIMETER_ZN_3_WALL_NORTH_DOOR2,SWINGING DOOR_CON,1.598,2.101,1.95,PERIMETER_ZN_3_WALL_NORTH
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Equipment Summary
+FOR:,Entire Facility
+Central Plant
+
+,,Type,Nominal Capacity [W],Nominal Efficiency [W/W],IPLV in SI Units [W/W],IPLV in IP Units [Btu/W-h]
+,None,,,,,
+
+
+Cooling Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Sensible Capacity [W],Nominal Latent Capacity [W],Nominal Sensible Heat Ratio,Nominal Efficiency [W/W],Nominal Coil UA Value [W/C],Nominal Coil Surface Area [m2]
+,PSZ-AC:1 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,5735.77,4370.48,1365.30,0.76,4.12,,
+,PSZ-AC:2 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,6317.38,4930.43,1386.95,0.78,4.12,,
+,PSZ-AC:3 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,4596.56,3671.07,925.49,0.80,4.12,,
+,PSZ-AC:4 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,6176.51,4819.98,1356.53,0.78,4.12,,
+,PSZ-AC:5 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,5387.70,4302.91,1084.78,0.80,4.12,,
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+DX Cooling Coils
+
+,,DX Cooling Coil Type,Standard Rated Net Cooling Capacity [W],Standard Rated Net COP [W/W],EER [Btu/W-h],SEER [Btu/W-h],IEER [Btu/W-h]
+,PSZ-AC:1 HEAT PUMP DX COOLING COIL,,5491.0,3.36,11.46,12.00,11.31
+,PSZ-AC:2 HEAT PUMP DX COOLING COIL,,6032.9,3.32,11.34,11.86,11.13
+,PSZ-AC:3 HEAT PUMP DX COOLING COIL,,4378.9,3.29,11.22,11.74,10.96
+,PSZ-AC:4 HEAT PUMP DX COOLING COIL,,5898.4,3.32,11.34,11.87,11.13
+,PSZ-AC:5 HEAT PUMP DX COOLING COIL,,5132.6,3.29,11.22,11.74,10.96
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+DX Cooling Coil ASHRAE 127 Standard Ratings Report
+
+,,DX Cooling Coil Type,Rated Net Cooling Capacity Test A [W],Rated Electric Power Test A [W],Rated Net Cooling Capacity Test B [W],Rated Electric Power Test B [W],Rated Net Cooling Capacity Test C [W],Rated Electric Power Test C [W],Rated Net Cooling Capacity Test D [W],Rated Electric Power Test D [W]
+,PSZ-AC:1 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,PSZ-AC:2 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,PSZ-AC:3 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,PSZ-AC:4 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,PSZ-AC:5 HEAT PUMP DX COOLING COIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+
+
+DX Heating Coils
+
+,,DX Heating Coil Type,High Temperature Heating (net) Rating Capacity [W],Low Temperature Heating (net) Rating Capacity [W],HSPF [Btu/W-h],Region Number
+,PSZ-AC:1 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,5983.9,3320.8,7.38,4
+,PSZ-AC:2 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,6605.6,3672.4,7.34,4
+,PSZ-AC:3 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,4816.9,2682.7,7.35,4
+,PSZ-AC:4 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,6458.2,3590.5,7.38,4
+,PSZ-AC:5 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,5645.9,3144.4,7.32,4
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+Heating Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Efficiency [W/W]
+,PSZ-AC:1 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,,5735.77,3.36
+,PSZ-AC:1 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Fuel,,2967.39,0.80
+,PSZ-AC:2 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,,6317.38,3.36
+,PSZ-AC:2 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Fuel,,3505.78,0.80
+,PSZ-AC:3 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,,4596.56,3.36
+,PSZ-AC:3 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Fuel,,2124.97,0.80
+,PSZ-AC:4 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,,6176.51,3.36
+,PSZ-AC:4 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Fuel,,3383.96,0.80
+,PSZ-AC:5 HEAT PUMP DX HEATING COIL,Coil:Heating:DX:SingleSpeed,,5387.70,3.36
+,PSZ-AC:5 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Fuel,,2115.03,0.80
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+Fans
+
+,,Type,Total Efficiency [W/W],Delta Pressure [pa],Max Air Flow Rate [m3/s],Rated Electric Power [W],Rated Power Per Max Air Flow Rate [W-s/m3],Motor Heat In Air Fraction,End Use
+,PSZ-AC:1 FAN,Fan:OnOff,0.56,622.50,0.31,349.39,1120.11,1.00,Fan Energy
+,PSZ-AC:2 FAN,Fan:OnOff,0.56,622.50,0.36,406.31,1120.11,1.00,Fan Energy
+,PSZ-AC:3 FAN,Fan:OnOff,0.56,622.50,0.28,311.03,1120.11,1.00,Fan Energy
+,PSZ-AC:4 FAN,Fan:OnOff,0.56,622.50,0.35,397.16,1120.11,1.00,Fan Energy
+,PSZ-AC:5 FAN,Fan:OnOff,0.56,622.50,0.33,364.56,1120.11,1.00,Fan Energy
+
+
+Pumps
+
+,,Type,Control,Head [pa],Water Flow [m3/s],Electric Power [W],Power Per Water Flow Rate [W-s/m3],Motor Efficiency [W/W]
+,SHWSYS1 PUMP,Pump:ConstantSpeed,Intermittent,0.00,0.000004,0.00,0.00,0.30
+
+
+Service Water Heating
+
+,,Type,Storage Volume [m3],Input [W],Thermal Efficiency [W/W],Recovery Efficiency [W/W],Energy Factor
+,SHWSYS1 WATER HEATER,WaterHeater:Mixed,0.15,11722.84,1.00,0.99,0.51
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,HVAC Sizing Summary
+FOR:,Entire Facility
+Zone Sensible Cooling
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,CORE_ZN,3403.78,4084.54,27.29,0.260,0.312,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,7/21 16:20:00,23.89,23.89,0.00909,39.65,0.00558,0.065,0.00
+,PERIMETER_ZN_1,3958.30,4749.96,41.87,0.302,0.363,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,7/21 15:40:00,23.89,23.89,0.00885,40.27,0.00558,0.049,0.00
+,PERIMETER_ZN_2,3030.19,3636.23,54.03,0.231,0.278,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,7/21 10:10:00,23.89,23.89,0.00877,36.08,0.00558,0.029,0.00
+,PERIMETER_ZN_3,3869.15,4642.98,40.93,0.295,0.355,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,7/21 15:50:00,23.89,23.89,0.00886,40.13,0.00558,0.049,0.00
+,PERIMETER_ZN_4,3551.70,4262.04,63.33,0.271,0.325,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN CLG .4% CONDNS DB=>MWB,7/21 17:20:00,23.89,23.89,0.00873,38.49,0.00558,0.029,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Heating
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,CORE_ZN,685.63,822.75,5.50,0.031,0.065,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,12/21 07:50:00,21.11,21.11,0.00800,0.50,0.00432,0.065,0.00
+,PERIMETER_ZN_1,1972.13,2366.56,20.86,0.088,0.106,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,12/21 07:00:00,21.11,21.11,0.00779,0.50,0.00432,0.049,0.00
+,PERIMETER_ZN_2,1208.20,1449.84,21.54,0.054,0.065,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,12/21 07:00:00,21.11,21.11,0.00777,0.50,0.00432,0.029,0.00
+,PERIMETER_ZN_3,1869.11,2242.93,19.77,0.084,0.101,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,12/21 07:00:00,21.11,21.11,0.00777,0.50,0.00432,0.049,0.00
+,PERIMETER_ZN_4,1199.79,1439.75,21.39,0.054,0.065,TUCSON-DAVIS-MONTHAN.AFB_AZ_USA ANN HTG 99.6% CONDNS DB,12/21 07:00:00,21.11,21.11,0.00777,0.50,0.00432,0.029,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+System Design Air Flow Rates
+
+,,Calculated cooling [m3/s],User cooling [m3/s],Calculated heating [m3/s],User heating [m3/s]
+,PSZ-AC:1,0.31,0.31,0.06,0.06
+,PSZ-AC:2,0.36,0.36,0.11,0.11
+,PSZ-AC:3,0.28,0.28,0.07,0.07
+,PSZ-AC:4,0.35,0.35,0.10,0.10
+,PSZ-AC:5,0.33,0.33,0.06,0.06
+
+
+Plant Loop Coincident Design Fluid Flow Rate Adjustments
+
+,,Previous Design Volume Flow Rate [m3/s],Algorithm Volume Flow Rate [m3/s],Coincident Design Volume Flow Rate [m3/s],Coincident Size Adjusted,Peak Sizing Period Name,Peak Day into Period {TIMESTAMP}[day],Peak Hour Of Day {TIMESTAMP}[hr],Peak Step Start Minute {TIMESTAMP}[min]
+,None,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,System Summary
+FOR:,Entire Facility
+Economizer
+
+,,High Limit Shutoff Control,Minimum Outdoor Air [m3/s],Maximum Outdoor Air [m3/s],Return Air Temp Limit,Return Air Enthalpy Limit,Outdoor Air Temperature Limit [C],Outdoor Air Enthalpy Limit [C]
+,None,,,,,,,
+
+
+Demand Controlled Ventilation using Controller:MechanicalVentilation
+
+,,Controller:MechanicalVentilation Name,Outdoor Air Per Person [m3/s-person],Outdoor Air Per Area [m3/s-m2],Outdoor Air Per Zone [m3/s],Outdoor Air ACH [ach],Outdoor Air Method,Outdoor Air Schedule Name,Air Distribution Effectiveness in Cooling Mode,Air Distribution Effectiveness in Heating Mode,Air Distribution Effectiveness Schedule Name
+,None,,,,,,,,,,
+
+
+Time Not Comfortable Based on Simple ASHRAE 55-2004
+
+,,Winter Clothes [hr],Summer Clothes [hr],Summer or Winter Clothes [hr]
+,CORE_ZN,1401.33,2323.83,111.67
+,PERIMETER_ZN_1,1763.33,2055.67,477.33
+,PERIMETER_ZN_2,1842.33,2182.50,409.67
+,PERIMETER_ZN_3,1604.67,2521.83,460.50
+,PERIMETER_ZN_4,1851.00,2387.33,624.50
+,ATTIC,0.00,0.00,0.00
+,Facility,2205.83,2797.17,701.33
+Aggregated over the RunPeriods for Weather
+
+
+Time Setpoint Not Met
+
+,,During Heating [hr],During Cooling [hr],During Occupied Heating [hr],During Occupied Cooling [hr]
+,CORE_ZN,0.00,100.67,0.00,100.67
+,PERIMETER_ZN_1,0.83,490.50,0.83,381.50
+,PERIMETER_ZN_2,0.50,174.00,0.50,31.17
+,PERIMETER_ZN_3,1.50,113.50,1.50,45.00
+,PERIMETER_ZN_4,0.17,164.83,0.17,52.67
+,ATTIC,0.00,0.00,0.00,0.00
+,Facility,1.50,742.83,1.50,453.33
+Aggregated over the RunPeriods for Weather
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Component Sizing Summary
+FOR:,Entire Facility
+AirTerminal:SingleDuct:Uncontrolled
+
+,,Design Size Maximum Air Flow Rate [m3/s]
+,CORE_ZN DIRECT AIR,0.311922
+,PERIMETER_ZN_1 DIRECT AIR,0.362741
+,PERIMETER_ZN_2 DIRECT AIR,0.277678
+,PERIMETER_ZN_3 DIRECT AIR,0.354569
+,PERIMETER_ZN_4 DIRECT AIR,0.325471
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC
+
+,,Design Supply Air Flow Rate [m3/s]
+,PSZ-AC:1,0.311922
+,PSZ-AC:2,0.362741
+,PSZ-AC:3,0.277678
+,PSZ-AC:4,0.354569
+,PSZ-AC:5,0.325471
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:OutdoorAir
+
+,,Maximum Outdoor Air Flow Rate [m3/s],Minimum Outdoor Air Flow Rate [m3/s]
+,PSZ-AC:1_OA_CONTROLLER,0.311922,0.064618
+,PSZ-AC:2_OA_CONTROLLER,0.362741,0.048985
+,PSZ-AC:3_OA_CONTROLLER,0.277678,0.029058
+,PSZ-AC:4_OA_CONTROLLER,0.354569,0.048985
+,PSZ-AC:5_OA_CONTROLLER,0.325471,0.029058
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Total Cooling Capacity [W],Design Size Gross Rated Sensible Heat Ratio
+,PSZ-AC:1 HEAT PUMP DX COOLING COIL,0.311922,5735.77,0.761968
+,PSZ-AC:2 HEAT PUMP DX COOLING COIL,0.362741,6317.38,0.780455
+,PSZ-AC:3 HEAT PUMP DX COOLING COIL,0.277678,4596.56,0.798655
+,PSZ-AC:4 HEAT PUMP DX COOLING COIL,0.354569,6176.51,0.780373
+,PSZ-AC:5 HEAT PUMP DX COOLING COIL,0.325471,5387.70,0.798655
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC:UnitaryHeatPump:AirToAir
+
+,,Supply Air Flow Rate [m3/s],Supply Air Flow Rate During Heating Operation [m3/s],Supply Air Flow Rate During Cooling Operation [m3/s],Supply Air Flow Rate When No Cooling or Heating is Needed [m3/s],Nominal Heating Capacity [W],Nominal Cooling Capacity [W],Maximum Supply Air Temperature from Supplemental Heater [C],Supplemental Heating Coil Nominal Capacity [W],Fraction of Supply Air Flow That Goes Through the Controlling Zone
+,PSZ-AC:1_HEATPUMP,0.311922,0.311922,0.311922,0.311922,5735.77,5735.77,40.00,2967.39,1.00
+,PSZ-AC:2_HEATPUMP,0.362741,0.362741,0.362741,0.362741,6317.38,6317.38,40.00,3505.78,1.00
+,PSZ-AC:3_HEATPUMP,0.277678,0.277678,0.277678,0.277678,4596.56,4596.56,40.00,2124.97,1.00
+,PSZ-AC:4_HEATPUMP,0.354569,0.354569,0.354569,0.354569,6176.51,6176.51,40.00,3383.96,1.00
+,PSZ-AC:5_HEATPUMP,0.325471,0.325471,0.325471,0.325471,5387.70,5387.70,40.00,2115.03,1.00
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:OnOff
+
+,,Design Size Maximum Flow Rate [m3/s]
+,PSZ-AC:1 FAN,0.311922
+,PSZ-AC:2 FAN,0.362741
+,PSZ-AC:3 FAN,0.277678
+,PSZ-AC:4 FAN,0.354569
+,PSZ-AC:5 FAN,0.325471
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Heating Capacity [W]
+,PSZ-AC:1 HEAT PUMP DX HEATING COIL,0.311922,5735.77
+,PSZ-AC:2 HEAT PUMP DX HEATING COIL,0.362741,6317.38
+,PSZ-AC:3 HEAT PUMP DX HEATING COIL,0.277678,4596.56
+,PSZ-AC:4 HEAT PUMP DX HEATING COIL,0.354569,6176.51
+,PSZ-AC:5 HEAT PUMP DX HEATING COIL,0.325471,5387.70
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:Fuel
+
+,,Design Size Nominal Capacity [W]
+,PSZ-AC:1 HEAT PUMP DX SUPP HEATING COIL,2967.39
+,PSZ-AC:2 HEAT PUMP DX SUPP HEATING COIL,3505.78
+,PSZ-AC:3 HEAT PUMP DX SUPP HEATING COIL,2124.97
+,PSZ-AC:4 HEAT PUMP DX SUPP HEATING COIL,3383.96
+,PSZ-AC:5 HEAT PUMP DX SUPP HEATING COIL,2115.03
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+PlantLoop
+
+,,Maximum Loop Flow Rate [m3/s],Plant Loop Volume [m3]
+,SHWSYS1,0.000004,0.003036
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Pump:ConstantSpeed
+
+,,Design Flow Rate [m3/s],Design Power Consumption [W]
+,SHWSYS1 PUMP,0.000004,0.000000
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,22.78,13.01
+,February,23.12,15.66
+,March,23.51,17.34
+,April,24.16,23.65
+,May,24.67,27.29
+,June,25.95,33.99
+,July,26.53,35.56
+,August,26.17,33.82
+,September,26.03,30.39
+,October,24.69,24.81
+,November,23.65,17.96
+,December,22.72,11.71
+,,,
+,Annual Sum or Average,24.51,23.80
+,Minimum of Months,22.72,11.71
+,Maximum of Months,26.53,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,22.36,13.01
+,February,22.85,15.66
+,March,23.15,17.34
+,April,23.94,23.65
+,May,24.65,27.29
+,June,26.34,33.99
+,July,27.05,35.56
+,August,26.60,33.82
+,September,26.42,30.39
+,October,25.02,24.81
+,November,23.52,17.96
+,December,22.29,11.71
+,,,
+,Annual Sum or Average,24.52,23.80
+,Minimum of Months,22.29,11.71
+,Maximum of Months,27.05,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,21.76,13.01
+,February,22.43,15.66
+,March,23.03,17.34
+,April,24.15,23.65
+,May,24.97,27.29
+,June,26.46,33.99
+,July,27.00,35.56
+,August,26.54,33.82
+,September,26.22,30.39
+,October,24.62,24.81
+,November,23.01,17.96
+,December,21.60,11.71
+,,,
+,Annual Sum or Average,24.32,23.80
+,Minimum of Months,21.60,11.71
+,Maximum of Months,27.00,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,21.41,13.01
+,February,22.00,15.66
+,March,22.66,17.34
+,April,23.75,23.65
+,May,24.67,27.29
+,June,26.27,33.99
+,July,26.85,35.56
+,August,26.33,33.82
+,September,25.92,30.39
+,October,24.21,24.81
+,November,22.66,17.96
+,December,21.18,11.71
+,,,
+,Annual Sum or Average,24.00,23.80
+,Minimum of Months,21.18,11.71
+,Maximum of Months,26.85,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,21.84,13.01
+,February,22.44,15.66
+,March,23.22,17.34
+,April,24.35,23.65
+,May,25.24,27.29
+,June,26.63,33.99
+,July,27.12,35.56
+,August,26.71,33.82
+,September,26.40,30.39
+,October,24.70,24.81
+,November,23.06,17.96
+,December,21.63,11.71
+,,,
+,Annual Sum or Average,24.46,23.80
+,Minimum of Months,21.63,11.71
+,Maximum of Months,27.12,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,MONTHLY INDOOR TEMP
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE MEAN AIR TEMPERATURE [C],SITE OUTDOOR AIR DRYBULB TEMPERATURE [C]
+,January,13.94,13.01
+,February,18.24,15.66
+,March,21.31,17.34
+,April,28.84,23.65
+,May,33.47,27.29
+,June,40.47,33.99
+,July,42.03,35.56
+,August,39.41,33.82
+,September,34.85,30.39
+,October,27.40,24.81
+,November,19.34,17.96
+,December,13.10,11.71
+,,,
+,Annual Sum or Average,27.74,23.80
+,Minimum of Months,13.10,11.71
+,Maximum of Months,42.03,35.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT {HOURS NON-ZERO} [HOURS],ZONE PEOPLE OCCUPANT COUNT {FOR HOURS SHOWN} [],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR {FOR HOURS SHOWN} [ach],ZONE INFILTRATION AIR CHANGE RATE [Invalid/Undefined]
+,January,357.000,5.127,0.396,0.000
+,February,323.000,5.127,0.398,0.000
+,March,391.000,5.127,0.399,0.000
+,April,340.000,5.127,0.399,0.000
+,May,374.000,5.127,0.401,0.000
+,June,374.000,5.127,0.402,0.000
+,July,340.000,5.127,0.402,0.000
+,August,391.000,5.127,0.403,0.000
+,September,340.000,5.127,0.401,0.000
+,October,357.000,5.127,0.400,0.000
+,November,357.000,5.127,0.398,0.000
+,December,340.000,5.127,0.397,0.000
+,,,,,
+,Annual Sum or Average,4284.000,5.127,0.400,0.000
+,Minimum of Months,323.000,5.127,0.396,0.000
+,Maximum of Months,391.000,5.127,0.403,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT {HOURS NON-ZERO} [HOURS],ZONE PEOPLE OCCUPANT COUNT {FOR HOURS SHOWN} [],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR {FOR HOURS SHOWN} [ach],ZONE INFILTRATION AIR CHANGE RATE {FOR HOURS SHOWN} [ach]
+,January,357.000,3.886,0.394,0.391
+,February,323.000,3.886,0.396,0.389
+,March,391.000,3.886,0.397,0.389
+,April,340.000,3.886,0.398,0.400
+,May,374.000,3.886,0.399,0.398
+,June,374.000,3.886,0.401,0.382
+,July,340.000,3.886,0.402,0.385
+,August,391.000,3.886,0.403,0.374
+,September,340.000,3.886,0.401,0.371
+,October,357.000,3.886,0.399,0.385
+,November,357.000,3.886,0.396,0.383
+,December,340.000,3.886,0.395,0.393
+,,,,,
+,Annual Sum or Average,4284.000,3.886,0.399,0.387
+,Minimum of Months,323.000,3.886,0.394,0.371
+,Maximum of Months,391.000,3.886,0.403,0.400
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT {HOURS NON-ZERO} [HOURS],ZONE PEOPLE OCCUPANT COUNT {FOR HOURS SHOWN} [],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR {FOR HOURS SHOWN} [ach],ZONE INFILTRATION AIR CHANGE RATE {FOR HOURS SHOWN} [ach]
+,January,357.000,2.305,0.394,0.030
+,February,323.000,2.305,0.397,0.032
+,March,391.000,2.305,0.398,0.034
+,April,340.000,2.305,0.398,0.055
+,May,374.000,2.305,0.400,0.056
+,June,374.000,2.305,0.401,0.046
+,July,340.000,2.305,0.402,0.051
+,August,391.000,2.305,0.402,0.037
+,September,340.000,2.305,0.400,0.030
+,October,357.000,2.305,0.399,0.039
+,November,357.000,2.305,0.397,0.029
+,December,340.000,2.305,0.395,0.031
+,,,,,
+,Annual Sum or Average,4284.000,2.305,0.399,0.039
+,Minimum of Months,323.000,2.305,0.394,0.029
+,Maximum of Months,391.000,2.305,0.402,0.056
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT {HOURS NON-ZERO} [HOURS],ZONE PEOPLE OCCUPANT COUNT {FOR HOURS SHOWN} [],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR {FOR HOURS SHOWN} [ach],ZONE INFILTRATION AIR CHANGE RATE {FOR HOURS SHOWN} [ach]
+,January,357.000,3.886,0.394,0.027
+,February,323.000,3.886,0.397,0.028
+,March,391.000,3.886,0.398,0.030
+,April,340.000,3.886,0.398,0.049
+,May,374.000,3.886,0.400,0.050
+,June,374.000,3.886,0.401,0.041
+,July,340.000,3.886,0.402,0.045
+,August,391.000,3.886,0.402,0.032
+,September,340.000,3.886,0.400,0.026
+,October,357.000,3.886,0.399,0.034
+,November,357.000,3.886,0.397,0.026
+,December,340.000,3.886,0.395,0.028
+,,,,,
+,Annual Sum or Average,4284.000,3.886,0.399,0.035
+,Minimum of Months,323.000,3.886,0.394,0.026
+,Maximum of Months,391.000,3.886,0.402,0.050
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT {HOURS NON-ZERO} [HOURS],ZONE PEOPLE OCCUPANT COUNT {FOR HOURS SHOWN} [],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR {FOR HOURS SHOWN} [ach],ZONE INFILTRATION AIR CHANGE RATE {FOR HOURS SHOWN} [ach]
+,January,357.000,2.305,0.394,0.030
+,February,323.000,2.305,0.397,0.032
+,March,391.000,2.305,0.398,0.034
+,April,340.000,2.305,0.398,0.055
+,May,374.000,2.305,0.400,0.056
+,June,374.000,2.305,0.404,0.046
+,July,340.000,2.305,0.404,0.051
+,August,391.000,2.305,0.403,0.037
+,September,340.000,2.305,0.401,0.030
+,October,357.000,2.305,0.399,0.039
+,November,357.000,2.305,0.397,0.029
+,December,340.000,2.305,0.395,0.031
+,,,,,
+,Annual Sum or Average,4284.000,2.305,0.399,0.039
+,Minimum of Months,323.000,2.305,0.394,0.029
+,Maximum of Months,391.000,2.305,0.404,0.056
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OUTDOOR AIR SUMMARY
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE PEOPLE OCCUPANT COUNT [Invalid/Undefined],ZONE PEOPLE OCCUPANT COUNT [Invalid/Undefined],ZONE MECHANICAL VENTILATION AIR CHANGES PER HOUR [Invalid/Undefined],ZONE INFILTRATION AIR CHANGE RATE {FOR HOURS SHOWN} [ach]
+,January,0.000,0.000,0.000,0.000
+,February,0.000,0.000,0.000,0.000
+,March,0.000,0.000,0.000,0.000
+,April,0.000,0.000,0.000,0.000
+,May,0.000,0.000,0.000,0.000
+,June,0.000,0.000,0.000,0.000
+,July,0.000,0.000,0.000,0.000
+,August,0.000,0.000,0.000,0.000
+,September,0.000,0.000,0.000,0.000
+,October,0.000,0.000,0.000,0.000
+,November,0.000,0.000,0.000,0.000
+,December,0.000,0.000,0.000,0.000
+,,,,,
+,Annual Sum or Average,0.000,0.000,0.000,
+,Minimum of Months,0.000,0.000,0.000,0.000
+,Maximum of Months,0.000,0.000,0.000,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,VENTILATION LOAD COMPONENTS
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE MECHANICAL VENTILATION NO LOAD HEAT REMOVAL ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE DUE TO OVERHEATING ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD DECREASE ENERGY [J],ZONE MECHANICAL VENTILATION NO LOAD HEAT ADDITION ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE DUE TO OVERCOOLING ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD DECREASE ENERGY [J]
+,January,0.760343E+09,0.000,0.000,1745739.621,0.000,0.000,0.516770E+09,0.000
+,February,0.564406E+09,0.000,0.000,2336541.745,0.000,0.000,0.382514E+09,0.000
+,March,0.476803E+09,0.000,0.000,4087239.225,0.000,0.000,0.619684E+09,0.000
+,April,0.130363E+09,8895801.057,0.000,4969723.398,1015516.233,0.000,0.371646E+09,0.000
+,May,0.293377E+08,0.383651E+08,0.000,6403104.862,6667861.778,0.000,0.256838E+09,0.000
+,June,5146.948,0.355200E+09,0.000,5335835.745,0.391523E+08,0.000,0.320058E+08,0.000
+,July,0.000,0.866225E+09,0.000,761599.221,0.672321E+08,0.000,826384.251,0.000
+,August,0.000,0.850060E+09,0.000,2361345.820,0.680406E+08,0.000,6371650.883,0.000
+,September,435060.613,0.282785E+09,0.000,5495998.345,0.239423E+08,0.000,0.462718E+08,0.000
+,October,0.461318E+08,0.929781E+08,0.000,4814268.252,8843834.135,0.000,0.295151E+09,0.000
+,November,0.295595E+09,0.000,0.000,4459401.858,0.000,0.000,0.552403E+09,0.000
+,December,0.826614E+09,0.000,0.000,1399971.594,0.000,0.000,0.488465E+09,0.000
+,,,,,,,,,
+,Annual Sum or Average,0.313003E+10,0.249451E+10,0.000,0.441708E+08,0.214895E+09,0.000,0.356895E+10,0.000
+,Minimum of Months,0.000,0.000,0.000,761599.221,0.000,0.000,826384.251,0.000
+,Maximum of Months,0.826614E+09,0.866225E+09,0.000,6403104.862,0.680406E+08,0.000,0.619684E+09,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,VENTILATION LOAD COMPONENTS
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE MECHANICAL VENTILATION NO LOAD HEAT REMOVAL ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE DUE TO OVERHEATING ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD DECREASE ENERGY [J],ZONE MECHANICAL VENTILATION NO LOAD HEAT ADDITION ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE DUE TO OVERCOOLING ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD DECREASE ENERGY [J]
+,January,0.239456E+09,0.000,0.000,4028882.898,0.000,0.119364E+09,0.260698E+09,0.000
+,February,0.186133E+09,0.129017E+08,57755.616,3569397.426,1467662.778,0.944374E+08,0.152927E+09,1132.551
+,March,0.177308E+09,1834181.777,0.000,4697847.381,603926.397,0.966962E+08,0.202238E+09,0.000
+,April,0.760245E+08,0.873005E+08,0.000,2041418.428,0.136033E+08,0.217067E+08,0.543872E+08,0.000
+,May,0.335119E+08,0.167685E+09,0.000,1824837.230,0.247983E+08,892670.587,0.400347E+08,0.000
+,June,10369.601,0.483947E+09,0.000,175678.946,0.467789E+08,0.000,370143.413,0.000
+,July,0.000,0.752880E+09,0.000,0.000,0.528348E+08,0.000,0.000,0.000
+,August,0.000,0.738316E+09,0.000,239030.452,0.554864E+08,0.000,246409.584,0.000
+,September,103442.676,0.332865E+09,0.000,906389.444,0.292962E+08,0.000,6935669.471,0.000
+,October,0.428684E+08,0.157784E+09,0.000,3625998.638,0.142143E+08,6571817.503,0.627393E+08,0.000
+,November,0.960232E+08,234025.492,0.000,7979168.337,0.000,0.400891E+08,0.188971E+09,0.000
+,December,0.263392E+09,0.000,0.000,3493430.457,0.000,0.133922E+09,0.258745E+09,0.000
+,,,,,,,,,
+,Annual Sum or Average,0.111483E+10,0.273575E+10,57755.616,0.325821E+08,0.239084E+09,0.513681E+09,0.122829E+10,1132.551
+,Minimum of Months,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,Maximum of Months,0.263392E+09,0.752880E+09,57755.616,7979168.337,0.554864E+08,0.133922E+09,0.260698E+09,1132.551
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,VENTILATION LOAD COMPONENTS
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE MECHANICAL VENTILATION NO LOAD HEAT REMOVAL ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE DUE TO OVERHEATING ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD DECREASE ENERGY [J],ZONE MECHANICAL VENTILATION NO LOAD HEAT ADDITION ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE DUE TO OVERCOOLING ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD DECREASE ENERGY [J]
+,January,0.191758E+09,0.000,0.000,831731.249,0.000,0.617155E+08,0.164772E+09,0.000
+,February,0.143448E+09,3375941.358,2847.005,1451635.155,109254.688,0.319083E+08,0.121749E+09,1018.957
+,March,0.116965E+09,0.000,0.000,3329430.849,6268.161,0.304764E+08,0.191354E+09,0.000
+,April,0.354006E+08,0.311873E+08,0.000,3723191.794,3627957.755,5961197.022,0.710712E+08,0.000
+,May,9439106.627,0.723293E+08,0.000,3155862.757,8388169.315,0.000,0.399632E+08,0.000
+,June,14578.097,0.266117E+09,0.000,156410.487,0.238671E+08,0.000,532602.049,0.000
+,July,0.000,0.485622E+09,0.000,1984.827,0.343565E+08,0.000,0.000,0.000
+,August,14971.414,0.470237E+09,0.000,221518.512,0.354416E+08,0.000,611282.366,0.000
+,September,49539.842,0.189362E+09,0.000,1046008.664,0.150153E+08,0.000,6190345.370,0.000
+,October,0.247248E+08,0.807737E+08,0.000,2421242.014,6926887.426,0.000,0.582134E+08,0.000
+,November,0.755260E+08,0.000,0.000,2821851.204,0.000,8838139.384,0.158859E+09,0.000
+,December,0.227335E+09,0.000,0.000,573571.501,0.000,0.644087E+08,0.144285E+09,0.000
+,,,,,,,,,
+,Annual Sum or Average,0.824675E+09,0.159901E+10,2847.005,0.197344E+08,0.127739E+09,0.203308E+09,0.957601E+09,1018.957
+,Minimum of Months,0.000,0.000,0.000,1984.827,0.000,0.000,0.000,0.000
+,Maximum of Months,0.227335E+09,0.485622E+09,2847.005,3723191.794,0.354416E+08,0.644087E+08,0.191354E+09,1018.957
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,VENTILATION LOAD COMPONENTS
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE MECHANICAL VENTILATION NO LOAD HEAT REMOVAL ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE DUE TO OVERHEATING ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD DECREASE ENERGY [J],ZONE MECHANICAL VENTILATION NO LOAD HEAT ADDITION ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE DUE TO OVERCOOLING ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD DECREASE ENERGY [J]
+,January,0.434192E+09,0.000,0.000,480864.177,0.000,0.115584E+09,0.126654E+09,0.000
+,February,0.307368E+09,5648019.197,14410.935,814965.611,352671.605,0.653511E+08,0.119522E+09,1871.728
+,March,0.272646E+09,0.000,0.000,2198488.384,32699.996,0.558491E+08,0.234907E+09,0.000
+,April,0.890642E+08,0.522970E+08,0.000,2257757.421,6820504.814,0.135820E+08,0.856178E+08,0.000
+,May,0.199228E+08,0.121034E+09,0.000,2439611.811,0.149225E+08,0.000,0.692362E+08,0.000
+,June,36347.056,0.439213E+09,0.000,283762.024,0.405007E+08,0.000,1037362.767,0.000
+,July,0.000,0.791902E+09,0.000,4239.979,0.583224E+08,0.000,0.000,0.000
+,August,0.000,0.772274E+09,0.000,281652.562,0.606506E+08,0.000,923266.855,0.000
+,September,177652.791,0.311420E+09,0.000,1085281.965,0.265377E+08,0.000,0.109766E+08,0.000
+,October,0.576365E+08,0.129886E+09,0.000,2048875.011,0.124465E+08,0.000,0.853288E+08,0.000
+,November,0.186343E+09,0.000,0.000,2133412.491,0.000,0.189128E+08,0.198814E+09,0.000
+,December,0.485279E+09,0.000,0.000,299059.821,0.000,0.123609E+09,0.966590E+08,0.000
+,,,,,,,,,
+,Annual Sum or Average,0.185267E+10,0.262367E+10,14410.935,0.143280E+08,0.220586E+09,0.392889E+09,0.102968E+10,1871.728
+,Minimum of Months,0.000,0.000,0.000,4239.979,0.000,0.000,0.000,0.000
+,Maximum of Months,0.485279E+09,0.791902E+09,14410.935,2439611.811,0.606506E+08,0.123609E+09,0.234907E+09,1871.728
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,VENTILATION LOAD COMPONENTS
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE MECHANICAL VENTILATION NO LOAD HEAT REMOVAL ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD INCREASE DUE TO OVERHEATING ENERGY [J],ZONE MECHANICAL VENTILATION COOLING LOAD DECREASE ENERGY [J],ZONE MECHANICAL VENTILATION NO LOAD HEAT ADDITION ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD INCREASE DUE TO OVERCOOLING ENERGY [J],ZONE MECHANICAL VENTILATION HEATING LOAD DECREASE ENERGY [J]
+,January,0.219235E+09,0.000,0.000,1066019.656,0.000,0.618626E+08,0.127084E+09,0.000
+,February,0.168140E+09,3382088.360,950.196,1076368.533,55292.635,0.336531E+08,0.921624E+08,677.839
+,March,0.153490E+09,0.000,0.000,2355602.688,6466.650,0.289155E+08,0.158542E+09,0.000
+,April,0.519629E+08,0.314213E+08,0.000,1702366.868,1956906.194,8698567.807,0.543847E+08,0.000
+,May,0.118904E+08,0.738659E+08,0.000,1594396.987,5466356.250,0.000,0.420764E+08,0.000
+,June,15296.056,0.278998E+09,0.000,169752.487,0.139099E+08,0.000,583262.812,0.000
+,July,0.000,0.496401E+09,0.000,3195.347,0.230711E+08,0.000,0.000,0.000
+,August,6048.152,0.483979E+09,0.000,191339.187,0.211697E+08,0.000,682514.303,0.000
+,September,208949.622,0.190609E+09,0.000,713978.705,0.104448E+08,0.000,6709532.701,0.000
+,October,0.275954E+08,0.793072E+08,0.000,1494989.328,6079243.721,0.000,0.573115E+08,0.000
+,November,0.112495E+09,0.000,0.000,2351087.664,0.000,6608334.943,0.122903E+09,0.000
+,December,0.244623E+09,0.000,0.000,807971.426,0.000,0.688620E+08,0.112290E+09,0.000
+,,,,,,,,,
+,Annual Sum or Average,0.989662E+09,0.163796E+10,950.196,0.135271E+08,0.821597E+08,0.208600E+09,0.774730E+09,677.839
+,Minimum of Months,0.000,0.000,0.000,3195.347,0.000,0.000,0.000,0.000
+,Maximum of Months,0.244623E+09,0.496401E+09,950.196,2355602.688,0.230711E+08,0.688620E+08,0.158542E+09,677.839
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC AIR SYSTEM LOADS
+FOR:,PSZ-AC:1
+Custom Monthly Report
+
+,,AIR SYSTEM TOTAL HEATING ENERGY [J],AIR SYSTEM TOTAL COOLING ENERGY [J]
+,January,0.348347E+09,0.388034E+09
+,February,0.315388E+09,0.614660E+09
+,March,0.378646E+09,0.888436E+09
+,April,0.328299E+09,0.151508E+10
+,May,0.359728E+09,0.223001E+10
+,June,0.359728E+09,0.394941E+10
+,July,0.327026E+09,0.448896E+10
+,August,0.376080E+09,0.490924E+10
+,September,0.327026E+09,0.358638E+10
+,October,0.343377E+09,0.219151E+10
+,November,0.343377E+09,0.109970E+10
+,December,0.335181E+09,0.288446E+09
+,,,
+,Annual Sum or Average,0.414220E+10,0.261499E+11
+,Minimum of Months,0.315388E+09,0.288446E+09
+,Maximum of Months,0.378646E+09,0.490924E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC AIR SYSTEM LOADS
+FOR:,PSZ-AC:2
+Custom Monthly Report
+
+,,AIR SYSTEM TOTAL HEATING ENERGY [J],AIR SYSTEM TOTAL COOLING ENERGY [J]
+,January,0.696563E+09,0.960697E+09
+,February,0.567498E+09,0.114195E+10
+,March,0.620285E+09,0.121660E+10
+,April,0.429987E+09,0.177034E+10
+,May,0.418612E+09,0.232432E+10
+,June,0.418597E+09,0.426623E+10
+,July,0.388402E+09,0.487006E+10
+,August,0.441295E+09,0.526245E+10
+,September,0.388919E+09,0.414701E+10
+,October,0.411066E+09,0.306302E+10
+,November,0.454082E+09,0.194298E+10
+,December,0.716115E+09,0.801696E+09
+,,,
+,Annual Sum or Average,0.595142E+10,0.317673E+11
+,Minimum of Months,0.388402E+09,0.801696E+09
+,Maximum of Months,0.716115E+09,0.526245E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC AIR SYSTEM LOADS
+FOR:,PSZ-AC:3
+Custom Monthly Report
+
+,,AIR SYSTEM TOTAL HEATING ENERGY [J],AIR SYSTEM TOTAL COOLING ENERGY [J]
+,January,0.382589E+09,0.232199E+09
+,February,0.316991E+09,0.424175E+09
+,March,0.367372E+09,0.686928E+09
+,April,0.300686E+09,0.127835E+10
+,May,0.320236E+09,0.178959E+10
+,June,0.326784E+09,0.304060E+10
+,July,0.308424E+09,0.335730E+10
+,August,0.342537E+09,0.345184E+10
+,September,0.293070E+09,0.245417E+10
+,October,0.305680E+09,0.146491E+10
+,November,0.310009E+09,0.701298E+09
+,December,0.380140E+09,0.156353E+09
+,,,
+,Annual Sum or Average,0.395452E+10,0.190377E+11
+,Minimum of Months,0.293070E+09,0.156353E+09
+,Maximum of Months,0.382589E+09,0.345184E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC AIR SYSTEM LOADS
+FOR:,PSZ-AC:4
+Custom Monthly Report
+
+,,AIR SYSTEM TOTAL HEATING ENERGY [J],AIR SYSTEM TOTAL COOLING ENERGY [J]
+,January,0.549611E+09,0.163721E+09
+,February,0.441847E+09,0.396380E+09
+,March,0.492857E+09,0.613517E+09
+,April,0.391877E+09,0.135056E+10
+,May,0.408911E+09,0.208449E+10
+,June,0.409485E+09,0.388446E+10
+,July,0.379150E+09,0.442543E+10
+,August,0.428208E+09,0.454655E+10
+,September,0.371737E+09,0.308521E+10
+,October,0.390324E+09,0.174410E+10
+,November,0.406557E+09,0.689152E+09
+,December,0.556464E+09,0.958279E+08
+,,,
+,Annual Sum or Average,0.522703E+10,0.230794E+11
+,Minimum of Months,0.371737E+09,0.958279E+08
+,Maximum of Months,0.556464E+09,0.454655E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC AIR SYSTEM LOADS
+FOR:,PSZ-AC:5
+Custom Monthly Report
+
+,,AIR SYSTEM TOTAL HEATING ENERGY [J],AIR SYSTEM TOTAL COOLING ENERGY [J]
+,January,0.427098E+09,0.305850E+09
+,February,0.361222E+09,0.445685E+09
+,March,0.419985E+09,0.651650E+09
+,April,0.351367E+09,0.112332E+10
+,May,0.377616E+09,0.164523E+10
+,June,0.389726E+09,0.293196E+10
+,July,0.363403E+09,0.328406E+10
+,August,0.405498E+09,0.339571E+10
+,September,0.347688E+09,0.238739E+10
+,October,0.358861E+09,0.139731E+10
+,November,0.360135E+09,0.703887E+09
+,December,0.424584E+09,0.226915E+09
+,,,
+,Annual Sum or Average,0.458718E+10,0.184990E+11
+,Minimum of Months,0.347688E+09,0.226915E+09
+,Maximum of Months,0.427098E+09,0.339571E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,OVERALL HVAC SYSTEM ENERGY
+FOR:,Meter
+Custom Monthly Report
+
+,,ELECTRICITY:HVAC [J],HEATING:GAS [J]
+,January,0.246927E+10,5282851.655
+,February,0.246503E+10,3487120.708
+,March,0.299730E+10,0.000
+,April,0.349432E+10,1492143.893
+,May,0.445412E+10,0.000
+,June,0.677854E+10,0.000
+,July,0.715398E+10,0.000
+,August,0.752911E+10,0.000
+,September,0.567559E+10,0.000
+,October,0.419442E+10,0.000
+,November,0.297356E+10,0.000
+,December,0.231692E+10,4634791.170
+,,,
+,Annual Sum or Average,0.525022E+11,0.148969E+08
+,Minimum of Months,0.231692E+10,0.000
+,Maximum of Months,0.752911E+10,5282851.655
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMPONENTS OF PEAK ELECTRICAL DEMAND
+FOR:,Meter
+Custom Monthly Report
+
+,,ELECTRICITY:FACILITY [J],ELECTRICITY:FACILITY {Maximum}[W],ELECTRICITY:FACILITY {TIMESTAMP},INTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],INTERIOREQUIPMENT:ELECTRICITY {AT MAX/MIN} [W],FANS:ELECTRICITY {AT MAX/MIN} [W],HEATING:ELECTRICITY {AT MAX/MIN} [W],COOLING:ELECTRICITY {AT MAX/MIN} [W],EXTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],PUMPS:ELECTRICITY {AT MAX/MIN} [W],HEATREJECTION:ELECTRICITY [Invalid/Undefined],EXTERIOREQUIPMENT:ELECTRICITY [Invalid/Undefined],HUMIDIFICATION:ELECTRICITY [Invalid/Undefined],HEATRECOVERY:ELECTRICITY [Invalid/Undefined],WATERSYSTEMS:ELECTRICITY {AT MAX/MIN} [W],REFRIGERATION:ELECTRICITY [Invalid/Undefined],GENERATORS:ELECTRICITY [Invalid/Undefined],ELECTRICITYPRODUCED:FACILITY [Invalid/Undefined]
+,January,0.113792E+11,10736.169,11-JAN-16:30,2748.225,3325.307,1828.443,0.000,2263.194,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,February,0.104598E+11,12452.795,27-FEB-16:49,2755.014,3325.307,1828.443,0.000,3973.031,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,March,0.122252E+11,11639.322,14-MAR-15:00,2651.492,3325.307,1828.443,0.000,3263.081,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,April,0.118332E+11,13279.584,26-APR-15:00,2604.353,3325.307,1828.443,0.000,4950.481,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,May,0.133268E+11,14170.189,15-MAY-15:30,2718.996,3325.307,1828.443,0.000,5726.443,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,June,0.154943E+11,15730.070,27-JUN-15:39,2665.069,3325.307,1828.443,0.000,7340.251,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,July,0.155268E+11,15900.669,24-JUL-15:00,2665.069,3325.307,1828.443,0.000,7510.850,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,August,0.166513E+11,15988.863,07-AUG-15:09,2712.208,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,September,0.140564E+11,15388.193,01-SEP-15:00,2658.281,3325.307,1828.443,0.000,7005.163,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,October,0.129989E+11,13994.531,10-OCT-15:00,2651.492,3325.307,1828.443,0.000,5618.289,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,November,0.117380E+11,11385.888,01-NOV-14:00,2748.225,3325.307,1828.443,0.000,2912.913,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,December,0.110259E+11,10411.292,20-DEC-16:00,2883.737,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,,,,,,,,,,,,,,,,,,,
+,Annual Sum or Average,0.156716E+12,,,,,,,,,,0.000,0.000,0.000,0.000,,0.000,0.000,0.000
+,Minimum of Months,0.104598E+11,10411.292,,2604.353,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,Maximum of Months,0.166513E+11,15988.863,,2883.737,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMPONENTS OF PEAK NET ELECTRICAL DEMAND
+FOR:,Meter
+Custom Monthly Report
+
+,,ELECTRICITYNET:FACILITY [J],ELECTRICITYNET:FACILITY {Maximum}[W],ELECTRICITYNET:FACILITY {TIMESTAMP},INTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],INTERIOREQUIPMENT:ELECTRICITY {AT MAX/MIN} [W],FANS:ELECTRICITY {AT MAX/MIN} [W],HEATING:ELECTRICITY {AT MAX/MIN} [W],COOLING:ELECTRICITY {AT MAX/MIN} [W],EXTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],PUMPS:ELECTRICITY {AT MAX/MIN} [W],HEATREJECTION:ELECTRICITY [Invalid/Undefined],EXTERIOREQUIPMENT:ELECTRICITY [Invalid/Undefined],HUMIDIFICATION:ELECTRICITY [Invalid/Undefined],HEATRECOVERY:ELECTRICITY [Invalid/Undefined],WATERSYSTEMS:ELECTRICITY {AT MAX/MIN} [W],REFRIGERATION:ELECTRICITY [Invalid/Undefined],GENERATORS:ELECTRICITY [Invalid/Undefined],ELECTRICITYPRODUCED:FACILITY [Invalid/Undefined]
+,January,0.113792E+11,10736.169,11-JAN-16:30,2748.225,3325.307,1828.443,0.000,2263.194,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,February,0.104598E+11,12452.795,27-FEB-16:49,2755.014,3325.307,1828.443,0.000,3973.031,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,March,0.122252E+11,11639.322,14-MAR-15:00,2651.492,3325.307,1828.443,0.000,3263.081,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,April,0.118332E+11,13279.584,26-APR-15:00,2604.353,3325.307,1828.443,0.000,4950.481,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,May,0.133268E+11,14170.189,15-MAY-15:30,2718.996,3325.307,1828.443,0.000,5726.443,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,June,0.154943E+11,15730.070,27-JUN-15:39,2665.069,3325.307,1828.443,0.000,7340.251,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,July,0.155268E+11,15900.669,24-JUL-15:00,2665.069,3325.307,1828.443,0.000,7510.850,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,August,0.166513E+11,15988.863,07-AUG-15:09,2712.208,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,September,0.140564E+11,15388.193,01-SEP-15:00,2658.281,3325.307,1828.443,0.000,7005.163,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,October,0.129989E+11,13994.531,10-OCT-15:00,2651.492,3325.307,1828.443,0.000,5618.289,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,November,0.117380E+11,11385.888,01-NOV-14:00,2748.225,3325.307,1828.443,0.000,2912.913,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,December,0.110259E+11,10411.292,20-DEC-16:00,2883.737,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,,,,,,,,,,,,,,,,,,,
+,Annual Sum or Average,0.156716E+12,,,,,,,,,,0.000,0.000,0.000,0.000,,0.000,0.000,0.000
+,Minimum of Months,0.104598E+11,10411.292,,2604.353,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,Maximum of Months,0.166513E+11,15988.863,,2883.737,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,March,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.33,24.14,0.33,24.14
+,June,0.00,0.00,0.00,0.00,8.50,24.64,8.50,24.64
+,July,0.00,0.00,0.00,0.00,49.00,24.48,49.00,24.48
+,August,0.00,0.00,0.00,0.00,35.00,24.56,35.00,24.56
+,September,0.00,0.00,0.00,0.00,6.83,24.70,6.83,24.70
+,October,0.00,0.00,0.00,0.00,1.00,24.22,1.00,24.22
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,0.00,,0.00,,100.67,24.53,100.67,24.53
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.00,0.00,0.00,0.00,49.00,24.70,49.00,24.70
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.33,20.82,0.33,20.82,0.00,0.00,0.00,0.00
+,March,0.33,20.69,0.33,20.69,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,1.00,24.24,1.00,24.24
+,June,0.00,0.00,0.00,0.00,72.83,25.67,57.50,24.58
+,July,0.00,0.00,0.00,0.00,154.00,25.96,115.17,24.67
+,August,0.00,0.00,0.00,0.00,121.00,25.57,101.67,24.77
+,September,0.00,0.00,0.00,0.00,107.67,25.93,82.33,24.72
+,October,0.00,0.00,0.00,0.00,34.00,26.12,23.83,24.53
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.17,20.78,0.17,20.78,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,0.83,20.76,0.83,20.76,490.50,25.82,381.50,24.68
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.33,20.82,0.33,20.82,154.00,26.12,115.17,24.77
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,March,0.17,20.72,0.17,20.72,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.17,24.18,0.17,24.18
+,June,0.00,0.00,0.00,0.00,35.33,29.30,3.33,24.40
+,July,0.00,0.00,0.00,0.00,64.67,28.64,14.83,24.47
+,August,0.00,0.00,0.00,0.00,49.83,28.71,10.17,24.40
+,September,0.00,0.00,0.00,0.00,24.00,29.18,2.67,24.28
+,October,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.33,20.87,0.33,20.87,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,0.50,20.82,0.50,20.82,174.00,28.86,31.17,24.42
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.33,20.87,0.33,20.87,64.67,29.30,14.83,24.47
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.33,20.88,0.33,20.88,0.00,0.00,0.00,0.00
+,February,0.33,20.87,0.33,20.87,0.00,0.00,0.00,0.00
+,March,0.33,20.74,0.33,20.74,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,June,0.00,0.00,0.00,0.00,20.00,28.16,6.00,24.37
+,July,0.00,0.00,0.00,0.00,51.83,27.85,18.67,24.41
+,August,0.00,0.00,0.00,0.00,38.67,27.37,17.33,24.36
+,September,0.00,0.00,0.00,0.00,3.00,24.33,3.00,24.33
+,October,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.50,20.78,0.50,20.78,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,1.50,20.81,1.50,20.81,113.50,27.65,45.00,24.38
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.50,20.88,0.50,20.88,51.83,28.16,18.67,24.41
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,March,0.17,20.78,0.17,20.78,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,6.00,29.86,0.00,0.00
+,June,0.00,0.00,0.00,0.00,35.17,29.32,15.50,28.38
+,July,0.00,0.00,0.00,0.00,56.83,29.46,14.67,27.95
+,August,0.00,0.00,0.00,0.00,40.17,29.09,17.67,27.89
+,September,0.00,0.00,0.00,0.00,23.33,29.17,4.83,26.34
+,October,0.00,0.00,0.00,0.00,3.33,29.82,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,0.17,20.78,0.17,20.78,164.83,29.32,52.67,27.91
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.17,20.78,0.17,20.78,56.83,29.86,17.67,28.38
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SETPOINTS NOT MET WITH TEMPERATURES
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE HEATING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE HEATING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE COOLING SETPOINT NOT MET WHILE OCCUPIED TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,March,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,June,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,July,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,August,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,September,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,October,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,,,
+,Annual Sum or Average,0.00,,0.00,,0.00,,0.00,
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,357.00,23.24,0.00,0.00,0.00,0.00
+,February,311.83,23.36,0.00,0.00,0.00,0.00
+,March,367.33,23.59,0.00,0.00,0.00,0.00
+,April,232.00,23.84,20.50,25.28,0.00,0.00
+,May,147.00,23.89,61.83,25.47,0.00,0.00
+,June,4.50,25.22,240.67,25.16,2.67,26.14
+,July,47.17,26.76,333.83,24.89,47.17,26.76
+,August,53.17,26.69,368.83,24.87,53.17,26.69
+,September,1.17,25.83,275.17,24.85,1.17,25.83
+,October,119.67,23.94,99.17,24.88,6.17,24.44
+,November,343.00,23.79,0.00,0.00,0.00,0.00
+,December,340.00,23.12,1.33,23.72,1.33,23.72
+,,,,,,,
+,Annual Sum or Average,2323.83,23.67,1401.33,24.95,111.67,26.54
+,Minimum of Months,1.17,23.12,0.00,0.00,0.00,0.00
+,Maximum of Months,367.33,26.76,368.83,25.47,53.17,26.76
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,300.83,22.85,46.17,21.12,46.17,21.12
+,February,227.00,22.65,51.50,22.70,24.83,20.89
+,March,268.83,22.96,32.33,22.79,19.67,20.84
+,April,195.83,23.51,44.83,25.30,6.00,21.11
+,May,157.67,23.77,74.00,26.26,0.00,0.00
+,June,68.17,27.86,248.83,25.82,60.83,28.34
+,July,103.17,28.12,332.83,25.51,103.17,28.12
+,August,103.83,27.94,368.33,25.46,103.83,27.94
+,September,56.50,27.61,287.83,25.43,51.17,28.00
+,October,91.50,23.81,190.00,24.90,12.17,25.03
+,November,202.67,23.35,41.83,23.51,6.83,21.11
+,December,279.67,22.53,44.83,21.13,42.67,20.99
+,,,,,,,
+,Annual Sum or Average,2055.67,23.84,1763.33,25.08,477.33,25.84
+,Minimum of Months,56.50,22.53,32.33,21.12,0.00,0.00
+,Maximum of Months,300.83,28.12,368.33,26.26,103.83,28.34
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,357.00,22.90,50.67,21.09,50.67,21.09
+,February,295.50,23.01,26.67,21.25,24.67,20.89
+,March,315.17,23.24,19.67,21.76,15.67,20.76
+,April,137.17,23.67,60.50,25.15,3.50,21.10
+,May,55.00,23.76,114.17,25.71,0.00,0.00
+,June,63.33,28.09,327.67,25.19,63.00,28.11
+,July,97.17,28.01,339.33,25.16,97.17,28.01
+,August,87.83,27.89,384.00,25.08,87.83,27.89
+,September,13.67,27.41,309.67,24.94,12.00,27.90
+,October,99.67,23.81,159.83,24.69,5.00,24.18
+,November,321.00,23.53,6.50,21.12,6.50,21.12
+,December,340.00,22.69,43.67,20.97,43.67,20.97
+,,,,,,,
+,Annual Sum or Average,2182.50,23.74,1842.33,24.79,409.67,25.47
+,Minimum of Months,13.67,22.69,6.50,20.97,0.00,0.00
+,Maximum of Months,357.00,28.09,384.00,25.71,97.17,28.11
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,357.00,22.53,73.67,21.10,73.67,21.10
+,February,314.83,22.81,32.83,20.94,32.83,20.94
+,March,373.67,23.18,20.33,20.97,19.83,20.86
+,April,229.83,23.66,35.33,25.21,5.50,21.11
+,May,140.83,23.83,86.83,26.14,0.00,0.00
+,June,68.17,27.95,243.17,25.66,64.67,28.17
+,July,96.50,27.96,334.00,25.17,96.50,27.96
+,August,79.83,27.81,365.83,25.10,79.83,27.81
+,September,11.33,25.88,247.50,25.12,5.67,27.86
+,October,152.83,23.79,90.33,24.97,7.17,23.42
+,November,357.00,23.39,12.83,21.13,12.83,21.13
+,December,340.00,22.31,62.00,21.00,62.00,21.00
+,,,,,,,
+,Annual Sum or Average,2521.83,23.54,1604.67,24.74,460.50,24.78
+,Minimum of Months,11.33,22.31,12.83,20.94,0.00,0.00
+,Maximum of Months,373.67,27.96,365.83,26.14,96.50,28.17
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,348.50,22.84,54.67,21.17,54.67,21.17
+,February,263.00,22.86,39.83,22.40,26.50,20.97
+,March,278.50,23.19,60.83,24.63,16.00,20.86
+,April,178.50,23.94,102.33,26.26,17.00,25.98
+,May,167.00,24.98,146.50,26.49,39.50,28.68
+,June,105.67,28.88,267.17,25.98,102.00,29.06
+,July,100.50,28.79,333.83,25.41,100.50,28.79
+,August,111.50,28.88,371.50,25.45,111.50,28.88
+,September,88.67,28.31,266.17,25.54,84.83,28.51
+,October,128.83,24.00,139.50,25.29,9.83,26.38
+,November,281.83,23.48,17.17,22.55,10.67,21.14
+,December,334.83,22.62,51.50,21.06,51.50,21.06
+,,,,,,,
+,Annual Sum or Average,2387.33,24.23,1851.00,25.28,624.50,26.72
+,Minimum of Months,88.67,22.62,17.17,21.06,9.83,20.86
+,Maximum of Months,348.50,28.88,371.50,26.49,111.50,29.06
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,COMFORT REPORT - SIMPLE 55
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C],ZONE THERMAL COMFORT ASHRAE 55 SIMPLE MODEL SUMMER OR WINTER CLOTHES NOT COMFORTABLE TIME {HOURS NON-ZERO} [HOURS],ZONE MEAN AIR TEMPERATURE {FOR HOURS SHOWN} [C]
+,January,0.00,0.00,0.00,0.00,0.00,0.00
+,February,0.00,0.00,0.00,0.00,0.00,0.00
+,March,0.00,0.00,0.00,0.00,0.00,0.00
+,April,0.00,0.00,0.00,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.00,0.00
+,June,0.00,0.00,0.00,0.00,0.00,0.00
+,July,0.00,0.00,0.00,0.00,0.00,0.00
+,August,0.00,0.00,0.00,0.00,0.00,0.00
+,September,0.00,0.00,0.00,0.00,0.00,0.00
+,October,0.00,0.00,0.00,0.00,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Annual Sum or Average,0.00,,0.00,,0.00,
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.701107E+09,1515.30,11-JAN-16:55,23.90,11.41,0.314841E+09,450.65,09-JAN-10:20,16.67,9.29
+,February,0.695835E+09,1820.81,28-FEB-16:35,31.30,14.81,0.288079E+09,450.65,01-FEB-10:39,17.23,13.69
+,March,0.944867E+09,1808.00,14-MAR-15:55,28.90,14.52,0.353536E+09,450.65,03-MAR-09:39,16.47,8.41
+,April,0.113592E+10,5059.93,24-APR-05:03,23.22,12.90,0.313412E+09,450.66,24-APR-07:19,24.63,14.18
+,May,0.152814E+10,5333.45,03-MAY-05:03,20.00,10.42,0.347072E+09,450.66,04-MAY-07:10,17.52,14.79
+,June,0.266601E+10,5473.68,19-JUN-05:01,25.50,12.85,0.349754E+09,459.96,12-JUN-15:30,43.05,17.84
+,July,0.270354E+10,5109.02,14-JUL-05:01,29.40,16.79,0.320858E+09,482.97,24-JUL-15:00,42.80,23.56
+,August,0.300519E+10,5523.13,21-AUG-05:01,24.40,14.71,0.367694E+09,476.96,07-AUG-15:09,43.90,22.03
+,September,0.247063E+10,5522.93,11-SEP-05:01,25.50,13.01,0.317678E+09,452.37,11-SEP-15:20,40.40,17.34
+,October,0.149964E+10,5291.18,19-OCT-05:03,20.68,11.45,0.330950E+09,450.66,04-OCT-07:10,21.70,19.43
+,November,0.981128E+09,2519.32,01-NOV-05:05,19.90,11.12,0.327322E+09,450.65,27-NOV-09:00,16.70,9.43
+,December,0.677692E+09,1488.47,01-DEC-16:47,20.68,12.14,0.297541E+09,450.65,20-DEC-10:20,16.50,8.44
+,,,,,,,,,,,
+,Annual Sum or Average,0.190097E+11,,,,,0.392874E+10,,,,
+,Minimum of Months,0.677692E+09,1488.47,,19.90,10.42,0.288079E+09,450.65,,16.47,8.41
+,Maximum of Months,0.300519E+10,5523.13,,31.30,16.79,0.367694E+09,482.97,,43.90,23.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.100977E+10,3863.93,11-JAN-15:00,23.90,11.42,0.235910E+09,341.62,25-JAN-10:09,14.68,5.00
+,February,0.105262E+10,4965.52,27-FEB-12:57,28.90,15.46,0.213501E+09,341.63,15-FEB-15:09,17.52,13.02
+,March,0.109859E+10,3614.33,14-MAR-14:05,27.38,13.94,0.261597E+09,341.63,31-MAR-15:09,12.98,9.04
+,April,0.136387E+10,4211.84,26-APR-16:05,36.60,17.15,0.235247E+09,341.63,24-APR-07:19,24.63,14.18
+,May,0.170498E+10,5406.68,16-MAY-05:02,23.12,12.71,0.263296E+09,341.63,25-MAY-07:30,21.40,10.38
+,June,0.321122E+10,5800.20,05-JUN-05:01,26.60,16.78,0.269521E+09,390.07,12-JUN-12:09,40.78,17.44
+,July,0.333490E+10,5719.40,03-JUL-05:01,29.40,19.40,0.249828E+09,401.26,24-JUL-12:09,39.50,23.58
+,August,0.364030E+10,5817.76,21-AUG-05:01,24.40,14.71,0.286515E+09,412.68,08-AUG-12:09,41.20,23.03
+,September,0.324103E+10,5924.91,18-SEP-05:01,22.20,15.17,0.248681E+09,420.85,29-SEP-15:09,40.00,19.72
+,October,0.245512E+10,5711.41,10-OCT-05:02,21.70,13.53,0.252406E+09,378.09,10-OCT-14:50,37.62,19.07
+,November,0.174358E+10,4498.48,01-NOV-13:40,24.40,12.87,0.245838E+09,341.63,02-NOV-12:09,22.62,14.35
+,December,0.903734E+09,3680.51,01-DEC-14:30,19.45,11.66,0.221154E+09,341.87,29-DEC-14:20,17.57,8.35
+,,,,,,,,,,,
+,Annual Sum or Average,0.247597E+11,,,,,0.298349E+10,,,,
+,Minimum of Months,0.903734E+09,3614.33,,19.45,11.42,0.213501E+09,341.62,,12.98,5.00
+,Maximum of Months,0.364030E+10,5924.91,,36.60,19.40,0.286515E+09,420.85,,41.20,23.58
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.215052E+09,717.83,11-JAN-15:45,23.40,11.10,0.140283E+09,203.02,10-JAN-10:00,17.20,10.20
+,February,0.336877E+09,1505.69,28-FEB-10:22,25.80,11.74,0.128187E+09,202.76,15-FEB-10:20,17.40,10.70
+,March,0.568864E+09,1609.00,16-MAR-10:03,22.38,10.72,0.157591E+09,202.66,28-MAR-08:00,15.00,13.99
+,April,0.985211E+09,2270.33,28-APR-09:33,27.07,12.65,0.141368E+09,202.66,24-APR-07:19,24.63,14.18
+,May,0.134694E+10,3849.49,15-MAY-05:02,23.22,11.61,0.156614E+09,202.66,18-MAY-07:10,27.48,16.63
+,June,0.233543E+10,4186.62,05-JUN-05:01,26.60,16.78,0.158219E+09,202.66,01-JUN-07:10,25.97,16.91
+,July,0.240396E+10,4133.19,03-JUL-05:01,29.40,19.40,0.144460E+09,219.36,24-JUL-09:50,35.92,22.87
+,August,0.246432E+10,4183.83,21-AUG-05:01,24.40,14.71,0.165624E+09,213.55,07-AUG-09:50,36.93,21.12
+,September,0.186745E+10,4229.32,18-SEP-05:01,22.20,15.17,0.143324E+09,202.67,13-SEP-07:10,26.70,18.64
+,October,0.105430E+10,4048.81,10-OCT-05:02,21.70,13.53,0.148845E+09,202.66,04-OCT-07:10,21.70,19.43
+,November,0.533481E+09,1282.31,01-NOV-10:02,19.78,11.17,0.146555E+09,202.66,13-NOV-08:30,20.00,11.24
+,December,0.174047E+09,674.56,20-DEC-16:00,23.90,11.37,0.131533E+09,203.27,29-DEC-13:30,16.95,8.14
+,,,,,,,,,,,
+,Annual Sum or Average,0.142859E+11,,,,,0.176260E+10,,,,
+,Minimum of Months,0.174047E+09,674.56,,19.78,10.72,0.128187E+09,202.66,,15.00,8.14
+,Maximum of Months,0.246432E+10,4229.32,,29.40,19.40,0.165624E+09,219.36,,36.93,22.87
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.203045E+09,991.87,11-JAN-16:33,23.70,11.29,0.225784E+09,341.76,13-JAN-13:09,19.50,9.64
+,February,0.329078E+09,1733.26,28-FEB-15:57,31.70,14.68,0.209738E+09,342.03,14-FEB-11:50,19.03,11.12
+,March,0.513132E+09,1667.05,14-MAR-15:55,28.90,14.52,0.260672E+09,341.63,03-MAR-10:00,20.00,9.71
+,April,0.951237E+09,2660.28,27-APR-15:30,35.85,16.52,0.236118E+09,341.63,24-APR-07:19,24.63,14.18
+,May,0.145934E+10,5307.77,16-MAY-05:02,23.12,12.71,0.263790E+09,341.63,18-MAY-07:10,27.48,16.63
+,June,0.283649E+10,5679.92,05-JUN-05:01,26.60,16.78,0.266857E+09,352.84,12-JUN-15:20,43.13,17.80
+,July,0.299112E+10,5590.30,03-JUL-05:01,29.40,19.40,0.243458E+09,360.33,24-JUL-15:00,42.80,23.56
+,August,0.305022E+10,5689.03,21-AUG-05:01,24.40,14.71,0.279187E+09,357.33,07-AUG-15:20,43.90,21.76
+,September,0.221794E+10,5777.76,18-SEP-05:01,22.20,15.17,0.241362E+09,341.64,13-SEP-07:10,26.70,18.64
+,October,0.117322E+10,5498.51,02-OCT-05:02,22.02,11.95,0.250094E+09,341.63,16-OCT-07:10,18.58,10.87
+,November,0.502991E+09,1458.67,01-NOV-15:10,25.40,11.91,0.242843E+09,341.98,09-NOV-10:00,18.90,8.05
+,December,0.186276E+09,953.91,20-DEC-16:37,23.17,11.28,0.210965E+09,341.63,20-DEC-11:50,20.22,9.70
+,,,,,,,,,,,
+,Annual Sum or Average,0.164141E+11,,,,,0.293087E+10,,,,
+,Minimum of Months,0.186276E+09,953.91,,22.02,11.28,0.209738E+09,341.63,,18.58,8.05
+,Maximum of Months,0.305022E+10,5777.76,,35.85,19.40,0.279187E+09,360.33,,43.90,23.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.251714E+09,1723.91,11-JAN-16:23,23.60,11.23,0.136698E+09,202.74,12-JAN-11:50,18.53,9.54
+,February,0.324705E+09,2440.20,27-FEB-16:37,32.80,15.86,0.126336E+09,203.27,17-FEB-11:30,17.80,13.30
+,March,0.492010E+09,2186.32,14-MAR-15:55,28.90,14.52,0.157053E+09,203.08,14-MAR-08:30,16.65,10.54
+,April,0.788419E+09,2758.24,07-APR-15:57,35.60,14.96,0.141658E+09,202.85,03-APR-13:30,17.20,8.96
+,May,0.114753E+10,4491.72,16-MAY-05:02,23.12,12.71,0.157822E+09,202.70,08-MAY-08:09,15.28,11.94
+,June,0.213088E+10,4882.13,05-JUN-05:01,26.60,16.78,0.159287E+09,208.71,12-JUN-15:00,42.80,17.95
+,July,0.224727E+10,4823.68,03-JUL-05:01,29.40,19.40,0.144806E+09,208.66,24-JUL-15:00,42.80,23.56
+,August,0.231193E+10,4907.83,28-AUG-05:01,27.30,18.59,0.166506E+09,209.60,07-AUG-15:00,43.90,20.65
+,September,0.173463E+10,4907.74,18-SEP-05:01,22.20,15.17,0.144269E+09,204.01,11-SEP-15:00,40.00,17.41
+,October,0.937559E+09,4690.32,10-OCT-05:02,21.70,13.53,0.149216E+09,202.86,27-OCT-08:39,15.17,7.90
+,November,0.499488E+09,2011.32,01-NOV-15:55,24.40,11.29,0.145427E+09,203.24,16-NOV-08:50,17.75,11.15
+,December,0.205138E+09,1421.41,01-DEC-16:23,20.85,12.26,0.128078E+09,202.88,21-DEC-13:09,15.68,8.47
+,,,,,,,,,,,
+,Annual Sum or Average,0.130713E+11,,,,,0.175716E+10,,,,
+,Minimum of Months,0.205138E+09,1421.41,,20.85,11.23,0.126336E+09,202.70,,15.17,7.90
+,Maximum of Months,0.231193E+10,4907.83,,35.60,19.40,0.166506E+09,209.60,,43.90,23.56
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - COOLING
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE COOLING ENERGY [J],ZONE AIR SYSTEM SENSIBLE COOLING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE COOLING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C],ZONE TOTAL INTERNAL LATENT GAIN ENERGY [J],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {Maximum}[W],ZONE TOTAL INTERNAL LATENT GAIN ENERGY {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C],SITE OUTDOOR AIR WETBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.00,0.00,01-JAN-00:10,12.33,7.18,0.00,0.00,01-JAN-00:10,12.33,7.18
+,February,0.00,0.00,01-FEB-00:10,10.83,6.45,0.00,0.00,01-FEB-00:10,10.83,6.45
+,March,0.00,0.00,01-MAR-00:10,19.20,9.69,0.00,0.00,01-MAR-00:10,19.20,9.69
+,April,0.00,0.00,01-APR-00:10,13.15,9.22,0.00,0.00,01-APR-00:10,13.15,9.22
+,May,0.00,0.00,01-MAY-00:10,26.37,12.02,0.00,0.00,01-MAY-00:10,26.37,12.02
+,June,0.00,0.00,01-JUN-00:10,28.58,14.66,0.00,0.00,01-JUN-00:10,28.58,14.66
+,July,0.00,0.00,01-JUL-00:10,32.77,20.25,0.00,0.00,01-JUL-00:10,32.77,20.25
+,August,0.00,0.00,01-AUG-00:10,31.33,23.03,0.00,0.00,01-AUG-00:10,31.33,23.03
+,September,0.00,0.00,01-SEP-00:10,31.48,17.68,0.00,0.00,01-SEP-00:10,31.48,17.68
+,October,0.00,0.00,01-OCT-00:10,27.60,15.77,0.00,0.00,01-OCT-00:10,27.60,15.77
+,November,0.00,0.00,01-NOV-00:10,21.18,10.60,0.00,0.00,01-NOV-00:10,21.18,10.60
+,December,0.00,0.00,01-DEC-00:10,11.88,6.22,0.00,0.00,01-DEC-00:10,11.88,6.22
+,,,,,,,,,,,
+,Annual Sum or Average,0.00,,,,,0.00,,,,
+,Minimum of Months,0.00,0.00,,10.83,6.22,0.00,0.00,,10.83,6.22
+,Maximum of Months,0.00,0.00,,32.77,23.03,0.00,0.00,,32.77,23.03
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,823351.88,130.69,26-JAN-18:12,21.10
+,February,9623573.71,807.88,27-FEB-18:02,30.63
+,March,17028399.51,638.60,15-MAR-17:02,28.30
+,April,51545875.35,1191.66,26-APR-17:02,35.92
+,May,70527605.43,1442.16,15-MAY-17:01,39.32
+,June,0.101478E+09,1731.36,27-JUN-17:01,43.30
+,July,94460879.11,1720.44,14-JUL-17:01,43.22
+,August,0.102644E+09,1731.99,07-AUG-17:01,43.30
+,September,71479716.98,1559.40,01-SEP-17:01,41.02
+,October,46821179.69,1249.54,10-OCT-17:02,36.83
+,November,8456139.34,331.88,20-NOV-18:03,24.22
+,December,33278.17,51.46,20-DEC-18:03,20.03
+,,,,,
+,Annual Sum or Average,0.574922E+09,,,
+,Minimum of Months,33278.17,51.46,,20.03
+,Maximum of Months,0.102644E+09,1731.99,,43.30
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.243643E+09,8117.71,19-JAN-06:02,4.32
+,February,0.179121E+09,8108.36,07-FEB-06:02,3.80
+,March,0.164783E+09,5685.13,06-MAR-06:02,7.70
+,April,93018341.11,8253.92,03-APR-05:02,4.40
+,May,72746405.76,1139.47,15-MAY-17:11,39.23
+,June,77626632.67,1284.95,27-JUN-17:01,43.30
+,July,66492284.03,1273.80,14-JUL-17:01,43.22
+,August,72963030.10,1270.72,07-AUG-17:01,43.30
+,September,53804422.21,1144.73,01-SEP-17:01,41.02
+,October,54534598.28,1382.12,30-OCT-06:10,10.00
+,November,58702913.40,1810.08,30-NOV-07:10,8.98
+,December,0.269975E+09,8031.86,26-DEC-06:01,3.30
+,,,,,
+,Annual Sum or Average,0.140741E+10,,,
+,Minimum of Months,53804422.21,1139.47,,3.30
+,Maximum of Months,0.269975E+09,8253.92,,43.30
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,64603387.90,5534.87,19-JAN-06:02,4.32
+,February,42941015.39,5534.84,07-FEB-06:02,3.80
+,March,42009554.35,4165.87,06-MAR-06:02,7.70
+,April,40906805.31,5631.34,03-APR-05:02,4.40
+,May,41343582.24,750.85,15-MAY-17:11,39.23
+,June,52732239.68,849.82,27-JUN-17:23,43.30
+,July,48477245.60,848.69,25-JUL-17:11,42.60
+,August,53555155.39,866.11,07-AUG-17:11,43.30
+,September,39738645.54,772.49,01-SEP-17:22,40.85
+,October,32340931.59,666.44,10-OCT-17:11,36.47
+,November,19326810.07,681.75,27-NOV-06:05,9.40
+,December,68833169.46,5514.50,26-DEC-06:01,3.30
+,,,,,
+,Annual Sum or Average,0.546809E+09,,,
+,Minimum of Months,19326810.07,666.44,,3.30
+,Maximum of Months,68833169.46,5631.34,,43.30
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.107277E+09,7884.77,19-JAN-06:02,4.32
+,February,69518757.82,7862.15,07-FEB-06:02,3.80
+,March,56715641.54,5536.72,06-MAR-06:02,7.70
+,April,59054838.90,8000.40,03-APR-05:02,4.40
+,May,60135017.11,1160.67,15-MAY-17:11,39.23
+,June,80720411.43,1353.81,27-JUN-17:01,43.30
+,July,74992867.80,1346.45,14-JUL-17:01,43.22
+,August,82697702.68,1361.03,07-AUG-17:01,43.30
+,September,60384399.15,1235.05,01-SEP-17:01,41.02
+,October,47107033.37,1020.41,10-OCT-17:11,36.47
+,November,26130031.09,1716.01,27-NOV-06:05,9.40
+,December,0.117687E+09,7831.73,26-DEC-06:01,3.30
+,,,,,
+,Annual Sum or Average,0.842421E+09,,,
+,Minimum of Months,26130031.09,1020.41,,3.30
+,Maximum of Months,0.117687E+09,8000.40,,43.30
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,75972094.83,6037.95,31-JAN-06:01,2.80
+,February,54118267.81,6151.90,07-FEB-06:02,3.80
+,March,49048450.12,4887.67,06-MAR-06:02,7.70
+,April,45056359.88,6257.17,03-APR-05:02,4.40
+,May,38125866.72,743.81,15-MAY-17:11,39.23
+,June,25723139.29,840.11,23-JUN-17:11,42.20
+,July,25295467.26,878.37,25-JUL-17:11,42.60
+,August,24955981.66,854.60,07-AUG-17:11,43.30
+,September,26368381.60,764.79,01-SEP-17:22,40.85
+,October,32972469.52,674.39,10-OCT-17:11,36.47
+,November,32927705.00,419.15,27-NOV-06:05,9.40
+,December,77765555.50,6129.74,26-DEC-06:01,3.30
+,,,,,
+,Annual Sum or Average,0.508330E+09,,,
+,Minimum of Months,24955981.66,419.15,,2.80
+,Maximum of Months,77765555.50,6257.17,,43.30
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - HEATING
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE AIR SYSTEM SENSIBLE HEATING ENERGY [J],ZONE AIR SYSTEM SENSIBLE HEATING RATE {Maximum}[W],ZONE AIR SYSTEM SENSIBLE HEATING RATE {TIMESTAMP},SITE OUTDOOR AIR DRYBULB TEMPERATURE {AT MAX/MIN} [C]
+,January,0.00,0.00,01-JAN-00:10,12.33
+,February,0.00,0.00,01-FEB-00:10,10.83
+,March,0.00,0.00,01-MAR-00:10,19.20
+,April,0.00,0.00,01-APR-00:10,13.15
+,May,0.00,0.00,01-MAY-00:10,26.37
+,June,0.00,0.00,01-JUN-00:10,28.58
+,July,0.00,0.00,01-JUL-00:10,32.77
+,August,0.00,0.00,01-AUG-00:10,31.33
+,September,0.00,0.00,01-SEP-00:10,31.48
+,October,0.00,0.00,01-OCT-00:10,27.60
+,November,0.00,0.00,01-NOV-00:10,21.18
+,December,0.00,0.00,01-DEC-00:10,11.88
+,,,,,
+,Annual Sum or Average,0.00,,,
+,Minimum of Months,0.00,0.00,,10.83
+,Maximum of Months,0.00,0.00,,32.77
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - ELECTRIC
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE LIGHTS ELECTRIC ENERGY [J],ZONE LIGHTS ELECTRIC ENERGY {Maximum}[W],ZONE LIGHTS ELECTRIC ENERGY {TIMESTAMP},ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY [J],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {Maximum}[W],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {TIMESTAMP}
+,January,0.864651E+09,889.59,02-JAN-08:09,0.118664E+10,973.59,02-JAN-08:09
+,February,0.782171E+09,889.59,01-FEB-08:09,0.107295E+10,973.59,01-FEB-08:09
+,March,0.938781E+09,889.59,01-MAR-08:09,0.125726E+10,973.59,01-MAR-08:09
+,April,0.824803E+09,889.59,03-APR-07:10,0.113697E+10,973.59,03-APR-07:10
+,May,0.901716E+09,889.59,01-MAY-07:10,0.122195E+10,973.59,01-MAY-07:10
+,June,0.898932E+09,889.59,01-JUN-07:10,0.120759E+10,973.59,01-JUN-07:10
+,July,0.827587E+09,889.59,03-JUL-07:10,0.115133E+10,973.59,03-JUL-07:10
+,August,0.938781E+09,889.59,01-AUG-07:10,0.125726E+10,973.59,01-AUG-07:10
+,September,0.824803E+09,889.59,01-SEP-07:10,0.113697E+10,973.59,01-SEP-07:10
+,October,0.864651E+09,889.59,02-OCT-07:10,0.118664E+10,973.59,02-OCT-07:10
+,November,0.861868E+09,889.59,01-NOV-07:10,0.117228E+10,973.59,01-NOV-07:10
+,December,0.827587E+09,889.59,01-DEC-08:09,0.115133E+10,973.59,01-DEC-08:09
+,,,,,,,
+,Annual Sum or Average,0.103563E+11,,,0.141392E+11,,
+,Minimum of Months,0.782171E+09,889.59,,0.107295E+10,973.59,
+,Maximum of Months,0.938781E+09,889.59,,0.125726E+10,973.59,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - ELECTRIC
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE LIGHTS ELECTRIC ENERGY [J],ZONE LIGHTS ELECTRIC ENERGY {Maximum}[W],ZONE LIGHTS ELECTRIC ENERGY {TIMESTAMP},ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY [J],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {Maximum}[W],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {TIMESTAMP}
+,January,0.536164E+09,674.37,10-JAN-08:09,0.899552E+09,738.04,02-JAN-08:09
+,February,0.485174E+09,674.37,08-FEB-16:40,0.813362E+09,738.04,01-FEB-08:09
+,March,0.582345E+09,674.37,01-MAR-08:09,0.953087E+09,738.04,01-MAR-08:09
+,April,0.519470E+09,674.37,03-APR-07:10,0.861900E+09,738.04,03-APR-07:10
+,May,0.585272E+09,674.37,04-MAY-07:10,0.926320E+09,738.04,01-MAY-07:10
+,June,0.581810E+09,620.44,08-JUN-07:10,0.915434E+09,738.04,01-JUN-07:10
+,July,0.532529E+09,674.37,12-JUL-07:10,0.872785E+09,738.04,03-JUL-07:10
+,August,0.591726E+09,674.37,03-AUG-07:10,0.953087E+09,738.04,01-AUG-07:10
+,September,0.513199E+09,674.37,19-SEP-07:10,0.861900E+09,738.04,01-SEP-07:10
+,October,0.534830E+09,674.37,03-OCT-15:30,0.899552E+09,738.04,02-OCT-07:10
+,November,0.531457E+09,674.37,03-NOV-07:10,0.888667E+09,738.04,01-NOV-07:10
+,December,0.522279E+09,674.37,04-DEC-08:09,0.872785E+09,738.04,01-DEC-08:09
+,,,,,,,
+,Annual Sum or Average,0.651626E+10,,,0.107184E+11,,
+,Minimum of Months,0.485174E+09,620.44,,0.813362E+09,738.04,
+,Maximum of Months,0.591726E+09,674.37,,0.953087E+09,738.04,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - ELECTRIC
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE LIGHTS ELECTRIC ENERGY [J],ZONE LIGHTS ELECTRIC ENERGY {Maximum}[W],ZONE LIGHTS ELECTRIC ENERGY {TIMESTAMP},ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY [J],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {Maximum}[W],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {TIMESTAMP}
+,January,0.346218E+09,400.05,02-JAN-16:40,0.533626E+09,437.82,02-JAN-08:09
+,February,0.310389E+09,400.05,01-FEB-16:19,0.482497E+09,437.82,01-FEB-08:09
+,March,0.364394E+09,400.05,01-MAR-08:09,0.565383E+09,437.82,01-MAR-08:09
+,April,0.317468E+09,400.05,10-APR-15:50,0.511290E+09,437.82,03-APR-07:10
+,May,0.345198E+09,368.05,03-MAY-15:00,0.549505E+09,437.82,01-MAY-07:10
+,June,0.342799E+09,364.03,01-JUN-12:09,0.543047E+09,437.82,01-JUN-07:10
+,July,0.315920E+09,368.05,18-JUL-07:10,0.517747E+09,437.82,03-JUL-07:10
+,August,0.359122E+09,400.05,03-AUG-07:10,0.565383E+09,437.82,01-AUG-07:10
+,September,0.322074E+09,400.05,19-SEP-15:39,0.511290E+09,437.82,01-SEP-07:10
+,October,0.338211E+09,400.05,03-OCT-15:09,0.533626E+09,437.82,02-OCT-07:10
+,November,0.344935E+09,400.05,01-NOV-14:50,0.527169E+09,437.82,01-NOV-07:10
+,December,0.335738E+09,400.05,01-DEC-15:00,0.517747E+09,437.82,01-DEC-08:09
+,,,,,,,
+,Annual Sum or Average,0.404247E+10,,,0.635831E+10,,
+,Minimum of Months,0.310389E+09,364.03,,0.482497E+09,437.82,
+,Maximum of Months,0.364394E+09,400.05,,0.565383E+09,437.82,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - ELECTRIC
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE LIGHTS ELECTRIC ENERGY [J],ZONE LIGHTS ELECTRIC ENERGY {Maximum}[W],ZONE LIGHTS ELECTRIC ENERGY {TIMESTAMP},ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY [J],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {Maximum}[W],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {TIMESTAMP}
+,January,0.629168E+09,674.37,02-JAN-08:09,0.899552E+09,738.04,02-JAN-08:09
+,February,0.561160E+09,674.37,01-FEB-08:09,0.813362E+09,738.04,01-FEB-08:09
+,March,0.657384E+09,674.37,01-MAR-08:09,0.953087E+09,738.04,01-MAR-08:09
+,April,0.570273E+09,674.37,03-APR-07:10,0.861900E+09,738.04,03-APR-07:10
+,May,0.603614E+09,620.44,02-MAY-07:10,0.926320E+09,738.04,01-MAY-07:10
+,June,0.588846E+09,613.65,01-JUN-10:39,0.915434E+09,738.04,01-JUN-07:10
+,July,0.541946E+09,674.37,27-JUL-07:10,0.872785E+09,738.04,03-JUL-07:10
+,August,0.632241E+09,674.37,03-AUG-07:10,0.953087E+09,738.04,01-AUG-07:10
+,September,0.580844E+09,674.37,08-SEP-07:10,0.861900E+09,738.04,01-SEP-07:10
+,October,0.616012E+09,674.37,02-OCT-07:10,0.899552E+09,738.04,02-OCT-07:10
+,November,0.628147E+09,674.37,01-NOV-07:10,0.888667E+09,738.04,01-NOV-07:10
+,December,0.605071E+09,674.37,01-DEC-08:09,0.872785E+09,738.04,01-DEC-08:09
+,,,,,,,
+,Annual Sum or Average,0.721471E+10,,,0.107184E+11,,
+,Minimum of Months,0.541946E+09,613.65,,0.813362E+09,738.04,
+,Maximum of Months,0.657384E+09,674.37,,0.953087E+09,738.04,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING LOADS - ELECTRIC
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE LIGHTS ELECTRIC ENERGY [J],ZONE LIGHTS ELECTRIC ENERGY {Maximum}[W],ZONE LIGHTS ELECTRIC ENERGY {TIMESTAMP},ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY [J],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {Maximum}[W],ZONE ELECTRIC EQUIPMENT ELECTRIC ENERGY {TIMESTAMP}
+,January,0.346997E+09,400.05,02-JAN-08:09,0.533626E+09,437.82,02-JAN-08:09
+,February,0.311016E+09,400.05,01-FEB-08:09,0.482497E+09,437.82,01-FEB-08:09
+,March,0.368277E+09,400.05,01-MAR-08:09,0.565383E+09,437.82,01-MAR-08:09
+,April,0.322886E+09,400.05,03-APR-07:10,0.511290E+09,437.82,03-APR-07:10
+,May,0.349749E+09,400.05,01-MAY-07:10,0.549505E+09,437.82,01-MAY-07:10
+,June,0.346914E+09,400.05,08-JUN-07:10,0.543047E+09,437.82,01-JUN-07:10
+,July,0.319699E+09,400.05,03-JUL-07:10,0.517747E+09,437.82,03-JUL-07:10
+,August,0.362973E+09,400.05,01-AUG-07:10,0.565383E+09,437.82,01-AUG-07:10
+,September,0.326061E+09,400.05,01-SEP-07:10,0.511290E+09,437.82,01-SEP-07:10
+,October,0.344197E+09,400.05,02-OCT-07:10,0.533626E+09,437.82,02-OCT-07:10
+,November,0.344728E+09,400.05,01-NOV-07:10,0.527169E+09,437.82,01-NOV-07:10
+,December,0.334917E+09,400.05,01-DEC-08:09,0.517747E+09,437.82,01-DEC-08:09
+,,,,,,,
+,Annual Sum or Average,0.407841E+10,,,0.635831E+10,,
+,Minimum of Months,0.311016E+09,400.05,,0.482497E+09,437.82,
+,Maximum of Months,0.368277E+09,400.05,,0.565383E+09,437.82,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,CORE_ZN
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [J],ZONE LIGHTS TOTAL HEATING ENERGY [J],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [Invalid/Undefined],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [Invalid/Undefined]
+,January,0.790646E+09,0.864651E+09,0.118664E+10,0.00,0.00
+,February,0.715347E+09,0.782171E+09,0.107295E+10,0.00,0.00
+,March,0.865946E+09,0.938781E+09,0.125726E+10,0.00,0.00
+,April,0.752997E+09,0.824803E+09,0.113697E+10,0.00,0.00
+,May,0.828296E+09,0.901716E+09,0.122195E+10,0.00,0.00
+,June,0.828296E+09,0.898932E+09,0.120759E+10,0.00,0.00
+,July,0.752997E+09,0.827587E+09,0.115133E+10,0.00,0.00
+,August,0.865946E+09,0.938781E+09,0.125726E+10,0.00,0.00
+,September,0.752997E+09,0.824803E+09,0.113697E+10,0.00,0.00
+,October,0.790646E+09,0.864651E+09,0.118664E+10,0.00,0.00
+,November,0.790646E+09,0.861868E+09,0.117228E+10,0.00,0.00
+,December,0.752997E+09,0.827587E+09,0.115133E+10,0.00,0.00
+,,,,,,
+,Annual Sum or Average,0.948776E+10,0.103563E+11,0.141392E+11,0.00,0.00
+,Minimum of Months,0.715347E+09,0.782171E+09,0.107295E+10,0.00,0.00
+,Maximum of Months,0.865946E+09,0.938781E+09,0.125726E+10,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,PERIMETER_ZN_1
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [J],ZONE LIGHTS TOTAL HEATING ENERGY [J],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [J]
+,January,0.599361E+09,0.536164E+09,0.899552E+09,276.68,0.589807E+09
+,February,0.542279E+09,0.485174E+09,0.813362E+09,29224588.22,0.421943E+09
+,March,0.656443E+09,0.582345E+09,0.953087E+09,22835697.85,0.400526E+09
+,April,0.570820E+09,0.519470E+09,0.861900E+09,0.203111E+09,0.166957E+09
+,May,0.627902E+09,0.585272E+09,0.926320E+09,0.332468E+09,83707387.93
+,June,0.627902E+09,0.581810E+09,0.915434E+09,0.623436E+09,370696.08
+,July,0.570820E+09,0.532529E+09,0.872785E+09,0.676603E+09,1166961.22
+,August,0.656443E+09,0.591726E+09,0.953087E+09,0.599043E+09,761904.46
+,September,0.570820E+09,0.513199E+09,0.861900E+09,0.367010E+09,11708893.40
+,October,0.599361E+09,0.534830E+09,0.899552E+09,0.190724E+09,0.106626E+09
+,November,0.599361E+09,0.531457E+09,0.888667E+09,8008221.45,0.267576E+09
+,December,0.570820E+09,0.522279E+09,0.872785E+09,1019.79,0.645110E+09
+,,,,,,
+,Annual Sum or Average,0.719233E+10,0.651626E+10,0.107184E+11,0.305246E+10,0.269626E+10
+,Minimum of Months,0.542279E+09,0.485174E+09,0.813362E+09,276.68,370696.08
+,Maximum of Months,0.656443E+09,0.591726E+09,0.953087E+09,0.676603E+09,0.645110E+09
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,PERIMETER_ZN_2
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [J],ZONE LIGHTS TOTAL HEATING ENERGY [J],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [J]
+,January,0.355549E+09,0.346218E+09,0.533626E+09,50839.83,75679445.03
+,February,0.321687E+09,0.310389E+09,0.482497E+09,1836314.48,60167336.16
+,March,0.389411E+09,0.364394E+09,0.565383E+09,2092524.20,48402769.04
+,April,0.338618E+09,0.317468E+09,0.511290E+09,23816887.89,38377175.20
+,May,0.372480E+09,0.345198E+09,0.549505E+09,41416535.73,17303788.29
+,June,0.372480E+09,0.342799E+09,0.543047E+09,65371597.82,319189.32
+,July,0.338618E+09,0.315920E+09,0.517747E+09,98246050.49,803013.15
+,August,0.389411E+09,0.359122E+09,0.565383E+09,53466225.93,606911.46
+,September,0.338618E+09,0.322074E+09,0.511290E+09,24122236.79,3353409.28
+,October,0.355549E+09,0.338211E+09,0.533626E+09,13831942.43,18311922.43
+,November,0.355549E+09,0.344935E+09,0.527169E+09,951585.43,36088410.33
+,December,0.338618E+09,0.335738E+09,0.517747E+09,74.93,82769052.97
+,,,,,,
+,Annual Sum or Average,0.426659E+10,0.404247E+10,0.635831E+10,0.325203E+09,0.382182E+09
+,Minimum of Months,0.321687E+09,0.310389E+09,0.482497E+09,74.93,319189.32
+,Maximum of Months,0.389411E+09,0.364394E+09,0.565383E+09,98246050.49,82769052.97
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,PERIMETER_ZN_3
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [J],ZONE LIGHTS TOTAL HEATING ENERGY [J],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [J]
+,January,0.599361E+09,0.629168E+09,0.899552E+09,140202.00,0.110149E+09
+,February,0.542279E+09,0.561160E+09,0.813362E+09,3610715.62,85864049.67
+,March,0.656443E+09,0.657384E+09,0.953087E+09,4541021.30,69524668.97
+,April,0.570820E+09,0.570273E+09,0.861900E+09,40385623.51,54002060.91
+,May,0.627902E+09,0.603614E+09,0.926320E+09,67423958.82,23711726.95
+,June,0.627902E+09,0.588846E+09,0.915434E+09,0.100526E+09,337235.16
+,July,0.570820E+09,0.541946E+09,0.872785E+09,0.150004E+09,1083763.35
+,August,0.656443E+09,0.632241E+09,0.953087E+09,82594474.56,698593.61
+,September,0.570820E+09,0.580844E+09,0.861900E+09,38939930.76,4271685.50
+,October,0.599361E+09,0.616012E+09,0.899552E+09,24305349.09,24757533.19
+,November,0.599361E+09,0.628147E+09,0.888667E+09,2357029.96,51121203.22
+,December,0.570820E+09,0.605071E+09,0.872785E+09,2363.48,0.119868E+09
+,,,,,,
+,Annual Sum or Average,0.719233E+10,0.721471E+10,0.107184E+11,0.514831E+09,0.545389E+09
+,Minimum of Months,0.542279E+09,0.541946E+09,0.813362E+09,2363.48,337235.16
+,Maximum of Months,0.656443E+09,0.657384E+09,0.953087E+09,0.150004E+09,0.119868E+09
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,PERIMETER_ZN_4
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [J],ZONE LIGHTS TOTAL HEATING ENERGY [J],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [J]
+,January,0.355549E+09,0.346997E+09,0.533626E+09,40485.13,76989509.43
+,February,0.321687E+09,0.311016E+09,0.482497E+09,1738103.03,60047476.97
+,March,0.389411E+09,0.368277E+09,0.565383E+09,1339848.09,50035114.25
+,April,0.338618E+09,0.322886E+09,0.511290E+09,21495935.63,40603226.95
+,May,0.372480E+09,0.349749E+09,0.549505E+09,36799816.06,18175124.78
+,June,0.372480E+09,0.346914E+09,0.543047E+09,62340236.56,369124.88
+,July,0.338618E+09,0.319699E+09,0.517747E+09,95315149.15,894367.10
+,August,0.389411E+09,0.362973E+09,0.565383E+09,51349971.68,636320.62
+,September,0.338618E+09,0.326061E+09,0.511290E+09,22548758.57,3549893.97
+,October,0.355549E+09,0.344197E+09,0.533626E+09,13023195.01,18784476.94
+,November,0.355549E+09,0.344728E+09,0.527169E+09,1010273.48,36881067.63
+,December,0.338618E+09,0.334917E+09,0.517747E+09,75.16,84093383.05
+,,,,,,
+,Annual Sum or Average,0.426659E+10,0.407841E+10,0.635831E+10,0.307002E+09,0.391059E+09
+,Minimum of Months,0.321687E+09,0.311016E+09,0.482497E+09,75.16,369124.88
+,Maximum of Months,0.389411E+09,0.368277E+09,0.565383E+09,95315149.15,84093383.05
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,SPACE LOADS
+FOR:,ATTIC
+Custom Monthly Report
+
+,,ZONE PEOPLE TOTAL HEATING ENERGY [Invalid/Undefined],ZONE LIGHTS TOTAL HEATING ENERGY [Invalid/Undefined],ZONE ELECTRIC EQUIPMENT TOTAL HEATING ENERGY [Invalid/Undefined],ZONE INFILTRATION SENSIBLE HEAT GAIN ENERGY [J],ZONE INFILTRATION SENSIBLE HEAT LOSS ENERGY [J]
+,January,0.00,0.00,0.00,0.160883E+10,0.217454E+10
+,February,0.00,0.00,0.00,0.110237E+10,0.254410E+10
+,March,0.00,0.00,0.00,0.122074E+10,0.367063E+10
+,April,0.00,0.00,0.00,0.118658E+10,0.420959E+10
+,May,0.00,0.00,0.00,0.108410E+10,0.477525E+10
+,June,0.00,0.00,0.00,0.109145E+10,0.475245E+10
+,July,0.00,0.00,0.00,0.800342E+09,0.458309E+10
+,August,0.00,0.00,0.00,0.107907E+10,0.435343E+10
+,September,0.00,0.00,0.00,0.125478E+10,0.380838E+10
+,October,0.00,0.00,0.00,0.142251E+10,0.295810E+10
+,November,0.00,0.00,0.00,0.151914E+10,0.231930E+10
+,December,0.00,0.00,0.00,0.129968E+10,0.216176E+10
+,,,,,,
+,Annual Sum or Average,0.00,0.00,0.00,0.146696E+11,0.423106E+11
+,Minimum of Months,0.00,0.00,0.00,0.800342E+09,0.216176E+10
+,Maximum of Months,0.00,0.00,0.00,0.160883E+10,0.477525E+10
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,ENERGY CONSUMPTION - ELECTRICITY & NATURAL GAS
+FOR:,Meter
+Custom Monthly Report
+
+,,ELECTRICITY:BUILDING [J],ELECTRICITY:BUILDING {Maximum}[W],ELECTRICITY:BUILDING {TIMESTAMP},GAS:BUILDING [Invalid/Undefined],GAS:BUILDING [Invalid/Undefined]
+,January,0.677620E+10,6363.73,10-JAN-08:09,0.00,0.00
+,February,0.611458E+10,6363.73,08-FEB-16:40,0.00,0.00
+,March,0.720538E+10,6363.73,01-MAR-08:09,0.00,0.00
+,April,0.643825E+10,6291.70,03-APR-07:10,0.00,0.00
+,May,0.695915E+10,6277.81,04-MAY-07:10,0.00,0.00
+,June,0.688386E+10,6170.27,01-JUN-12:09,0.00,0.00
+,July,0.647008E+10,6331.74,27-JUL-07:10,0.00,0.00
+,August,0.717905E+10,6363.73,03-AUG-07:10,0.00,0.00
+,September,0.645034E+10,6273.79,13-SEP-07:10,0.00,0.00
+,October,0.675090E+10,6363.73,03-OCT-15:30,0.00,0.00
+,November,0.671509E+10,6363.73,03-NOV-07:10,0.00,0.00
+,December,0.655799E+10,6363.73,04-DEC-08:09,0.00,0.00
+,,,,,,
+,Annual Sum or Average,0.805009E+11,,,0.00,0.00
+,Minimum of Months,0.611458E+10,6170.27,,0.00,0.00
+,Maximum of Months,0.720538E+10,6363.73,,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING ENERGY PERFORMANCE - ELECTRICITY
+FOR:,Meter
+Custom Monthly Report
+
+,,INTERIORLIGHTS:ELECTRICITY [J],TASKLIGHTS:INTERIORLIGHTS:ELECTRICITY [Invalid/Undefined],EXTERIORLIGHTS:ELECTRICITY [J],GENERAL:INTERIOREQUIPMENT:ELECTRICITY [J],EXTERIOREQUIPMENT:ELECTRICITY [Invalid/Undefined],FANS:ELECTRICITY [J],PUMPS:ELECTRICITY [J],HEATING:ELECTRICITY [J],COOLING:ELECTRICITY [J],HEATREJECTION:ELECTRICITY [Invalid/Undefined],HUMIDIFIER:ELECTRICITY [Invalid/Undefined],HEATRECOVERY:ELECTRICITY [Invalid/Undefined],WATERSYSTEMS:ELECTRICITY [J],COGENERATION:ELECTRICITY [Invalid/Undefined]
+,January,0.272320E+10,0.00,0.604395E+09,0.405300E+10,0.00,0.179699E+10,0.02,0.219216E+09,0.453064E+09,0.00,0.00,0.00,0.152937E+10,0.00
+,February,0.244991E+10,0.00,0.498863E+09,0.366466E+10,0.00,0.162585E+10,0.02,0.139402E+09,0.699777E+09,0.00,0.00,0.00,0.138136E+10,0.00
+,March,0.291118E+10,0.00,0.493111E+09,0.429420E+10,0.00,0.196814E+10,0.02,0.104381E+09,0.924784E+09,0.00,0.00,0.00,0.152937E+10,0.00
+,April,0.255490E+10,0.00,0.420634E+09,0.388335E+10,0.00,0.171142E+10,0.02,30826302.41,0.175207E+10,0.00,0.00,0.00,0.148003E+10,0.00
+,May,0.278555E+10,0.00,0.384154E+09,0.417360E+10,0.00,0.188483E+10,0.02,86748.51,0.256921E+10,0.00,0.00,0.00,0.152937E+10,0.00
+,June,0.275930E+10,0.00,0.351912E+09,0.412456E+10,0.00,0.190432E+10,0.02,0.00,0.487422E+10,0.00,0.00,0.00,0.148003E+10,0.00
+,July,0.253768E+10,0.00,0.373365E+09,0.393240E+10,0.00,0.176640E+10,0.02,0.00,0.538758E+10,0.00,0.00,0.00,0.152937E+10,0.00
+,August,0.288484E+10,0.00,0.413758E+09,0.429420E+10,0.00,0.199362E+10,0.02,0.00,0.553549E+10,0.00,0.00,0.00,0.152937E+10,0.00
+,September,0.256698E+10,0.00,0.450425E+09,0.388335E+10,0.00,0.172844E+10,0.02,0.00,0.394715E+10,0.00,0.00,0.00,0.148003E+10,0.00
+,October,0.269790E+10,0.00,0.524204E+09,0.405300E+10,0.00,0.180193E+10,0.02,2408818.17,0.239008E+10,0.00,0.00,0.00,0.152937E+10,0.00
+,November,0.271113E+10,0.00,0.569340E+09,0.400396E+10,0.00,0.179699E+10,0.02,25666422.90,0.115090E+10,0.00,0.00,0.00,0.148003E+10,0.00
+,December,0.262559E+10,0.00,0.621634E+09,0.393240E+10,0.00,0.171142E+10,0.02,0.259503E+09,0.345994E+09,0.00,0.00,0.00,0.152937E+10,0.00
+,,,,,,,,,,,,,,,
+,Annual Sum or Average,0.322082E+11,0.00,0.570579E+10,0.482927E+11,0.00,0.216904E+11,0.24,0.781490E+09,0.300303E+11,0.00,0.00,0.00,0.180071E+11,0.00
+,Minimum of Months,0.244991E+10,0.00,0.351912E+09,0.366466E+10,0.00,0.162585E+10,0.02,0.00,0.345994E+09,0.00,0.00,0.00,0.138136E+10,0.00
+,Maximum of Months,0.291118E+10,0.00,0.621634E+09,0.429420E+10,0.00,0.199362E+10,0.02,0.259503E+09,0.553549E+10,0.00,0.00,0.00,0.152937E+10,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,BUILDING ENERGY PERFORMANCE - NATURAL GAS
+FOR:,Meter
+Custom Monthly Report
+
+,,INTERIOREQUIPMENT:GAS [Invalid/Undefined],EXTERIOREQUIPMENT:GAS [Invalid/Undefined],HEATING:GAS [J],COOLING:GAS [Invalid/Undefined],WATERSYSTEMS:GAS [Invalid/Undefined],COGENERATION:GAS [Invalid/Undefined]
+,January,0.00,0.00,5282851.66,0.00,0.00,0.00
+,February,0.00,0.00,3487120.71,0.00,0.00,0.00
+,March,0.00,0.00,0.00,0.00,0.00,0.00
+,April,0.00,0.00,1492143.89,0.00,0.00,0.00
+,May,0.00,0.00,0.00,0.00,0.00,0.00
+,June,0.00,0.00,0.00,0.00,0.00,0.00
+,July,0.00,0.00,0.00,0.00,0.00,0.00
+,August,0.00,0.00,0.00,0.00,0.00,0.00
+,September,0.00,0.00,0.00,0.00,0.00,0.00
+,October,0.00,0.00,0.00,0.00,0.00,0.00
+,November,0.00,0.00,0.00,0.00,0.00,0.00
+,December,0.00,0.00,4634791.17,0.00,0.00,0.00
+,,,,,,,
+,Annual Sum or Average,0.00,0.00,14896907.43,0.00,0.00,0.00
+,Minimum of Months,0.00,0.00,0.00,0.00,0.00,0.00
+,Maximum of Months,0.00,0.00,5282851.66,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,PEAK ENERGY END-USE - ELECTRICITY PART 1
+FOR:,Meter
+Custom Monthly Report
+
+,,INTERIORLIGHTS:ELECTRICITY {Maximum}[W],INTERIORLIGHTS:ELECTRICITY {TIMESTAMP},TASKLIGHTS:INTERIORLIGHTS:ELECTRICITY [Invalid/Undefined],EXTERIORLIGHTS:ELECTRICITY {Maximum}[W],EXTERIORLIGHTS:ELECTRICITY {TIMESTAMP},GENERAL:INTERIOREQUIPMENT:ELECTRICITY {Maximum}[W],GENERAL:INTERIOREQUIPMENT:ELECTRICITY {TIMESTAMP},EXTERIOREQUIPMENT:ELECTRICITY [Invalid/Undefined],FANS:ELECTRICITY {Maximum}[W],FANS:ELECTRICITY {TIMESTAMP},PUMPS:ELECTRICITY {Maximum}[W],PUMPS:ELECTRICITY {TIMESTAMP},HEATING:ELECTRICITY {Maximum}[W],HEATING:ELECTRICITY {TIMESTAMP}
+,January,3038.42,10-JAN-08:09,0.00,611.30,01-JAN-06:10,3325.31,02-JAN-08:09,0.00,1828.44,02-JAN-06:10,0.00,18-JAN-10:39,3620.33,31-JAN-06:30
+,February,3038.42,08-FEB-16:40,0.00,611.30,01-FEB-06:10,3325.31,01-FEB-08:09,0.00,1828.44,01-FEB-06:10,0.00,01-FEB-07:10,3718.43,10-FEB-06:30
+,March,3038.42,01-MAR-08:09,0.00,611.30,01-MAR-06:10,3325.31,01-MAR-08:09,0.00,1828.44,01-MAR-06:10,0.00,01-MAR-09:39,3708.51,07-MAR-06:10
+,April,2966.39,03-APR-07:10,0.00,611.30,01-APR-05:10,3325.31,03-APR-07:10,0.00,1828.44,03-APR-05:19,0.00,04-APR-08:39,3065.07,03-APR-05:30
+,May,2952.51,04-MAY-07:10,0.00,611.30,01-MAY-05:10,3325.31,01-MAY-07:10,0.00,1828.44,01-MAY-05:10,0.00,04-MAY-15:30,80.06,08-MAY-06:30
+,June,2844.96,01-JUN-12:09,0.00,611.30,01-JUN-05:10,3325.31,01-JUN-07:10,0.00,1828.44,01-JUN-05:19,0.00,05-JUN-17:10,0.00,01-JUN-00:10
+,July,3006.43,27-JUL-07:10,0.00,611.30,01-JUL-05:10,3325.31,03-JUL-07:10,0.00,1828.44,03-JUL-05:10,0.00,03-JUL-17:10,0.00,01-JUL-00:10
+,August,3038.42,03-AUG-07:10,0.00,611.30,01-AUG-05:10,3325.31,01-AUG-07:10,0.00,1828.44,01-AUG-05:10,0.00,01-AUG-17:10,0.00,01-AUG-00:10
+,September,2948.48,13-SEP-07:10,0.00,611.30,01-SEP-05:10,3325.31,01-SEP-07:10,0.00,1828.44,01-SEP-05:10,0.00,01-SEP-17:10,0.00,01-SEP-00:10
+,October,3038.42,03-OCT-15:30,0.00,611.30,01-OCT-05:10,3325.31,02-OCT-07:10,0.00,1828.44,02-OCT-05:19,0.00,05-OCT-09:39,447.21,30-OCT-06:19
+,November,3038.42,03-NOV-07:10,0.00,611.30,01-NOV-05:10,3325.31,01-NOV-07:10,0.00,1828.44,01-NOV-05:10,0.00,09-NOV-09:09,896.94,27-NOV-07:10
+,December,3038.42,04-DEC-08:09,0.00,611.30,01-DEC-06:10,3325.31,01-DEC-08:09,0.00,1828.44,01-DEC-06:10,0.00,01-DEC-07:10,3322.68,26-DEC-06:30
+,,,,,,,,,,,,,,,
+,Annual Sum or Average,,,0.00,,,,,0.00,,,,,,
+,Minimum of Months,2844.96,,0.00,611.30,,3325.31,,0.00,1828.44,,0.00,,0.00,
+,Maximum of Months,3038.42,,0.00,611.30,,3325.31,,0.00,1828.44,,0.00,,3718.43,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,PEAK ELECTRICAL DEMAND
+FOR:,Meter
+Custom Monthly Report
+
+,,ELECTRICITY:FACILITY [J],ELECTRICITY:FACILITY {Maximum}[W],ELECTRICITY:FACILITY {TIMESTAMP},INTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],INTERIOREQUIPMENT:ELECTRICITY {AT MAX/MIN} [W],FANS:ELECTRICITY {AT MAX/MIN} [W],HEATING:ELECTRICITY {AT MAX/MIN} [W],COOLING:ELECTRICITY {AT MAX/MIN} [W],EXTERIORLIGHTS:ELECTRICITY {AT MAX/MIN} [W],PUMPS:ELECTRICITY {AT MAX/MIN} [W],HEATREJECTION:ELECTRICITY [Invalid/Undefined],EXTERIOREQUIPMENT:ELECTRICITY [Invalid/Undefined],HUMIDIFICATION:ELECTRICITY [Invalid/Undefined],HEATRECOVERY:ELECTRICITY [Invalid/Undefined],WATERSYSTEMS:ELECTRICITY {AT MAX/MIN} [W],REFRIGERATION:ELECTRICITY [Invalid/Undefined],GENERATORS:ELECTRICITY [Invalid/Undefined],ELECTRICITYPRODUCED:FACILITY [Invalid/Undefined]
+,January,0.113792E+11,10736.169,11-JAN-16:30,2748.225,3325.307,1828.443,0.000,2263.194,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,February,0.104598E+11,12452.795,27-FEB-16:49,2755.014,3325.307,1828.443,0.000,3973.031,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,March,0.122252E+11,11639.322,14-MAR-15:00,2651.492,3325.307,1828.443,0.000,3263.081,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,April,0.118332E+11,13279.584,26-APR-15:00,2604.353,3325.307,1828.443,0.000,4950.481,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,May,0.133268E+11,14170.189,15-MAY-15:30,2718.996,3325.307,1828.443,0.000,5726.443,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,June,0.154943E+11,15730.070,27-JUN-15:39,2665.069,3325.307,1828.443,0.000,7340.251,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,July,0.155268E+11,15900.669,24-JUL-15:00,2665.069,3325.307,1828.443,0.000,7510.850,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,August,0.166513E+11,15988.863,07-AUG-15:09,2712.208,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,September,0.140564E+11,15388.193,01-SEP-15:00,2658.281,3325.307,1828.443,0.000,7005.163,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,October,0.129989E+11,13994.531,10-OCT-15:00,2651.492,3325.307,1828.443,0.000,5618.289,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,November,0.117380E+11,11385.888,01-NOV-14:00,2748.225,3325.307,1828.443,0.000,2912.913,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,December,0.110259E+11,10411.292,20-DEC-16:00,2883.737,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,,,,,,,,,,,,,,,,,,,
+,Annual Sum or Average,0.156716E+12,,,,,,,,,,0.000,0.000,0.000,0.000,,0.000,0.000,0.000
+,Minimum of Months,0.104598E+11,10411.292,,2604.353,3325.307,1828.443,0.000,1802.805,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+,Maximum of Months,0.166513E+11,15988.863,,2883.737,3325.307,1828.443,0.000,7551.905,0.000,0.000,0.000,0.000,0.000,0.000,571.000,0.000,0.000,0.000
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,PEAK GAS DEMAND
+FOR:,Meter
+Custom Monthly Report
+
+,,GAS:FACILITY [J],GAS:FACILITY {Maximum}[W],GAS:FACILITY {TIMESTAMP},GAS:HVAC {AT MAX/MIN} [W],INTERIOREQUIPMENT:GAS [Invalid/Undefined],MISCPLUGGAS:INTERIOREQUIPMENT:GAS [Invalid/Undefined],GAS:PLANT [Invalid/Undefined],WATERSYSTEMS:GAS [Invalid/Undefined],WATER HEATER:WATERSYSTEMS:GAS [Invalid/Undefined],HEATING:GAS {AT MAX/MIN} [W]
+,January,5282851.655,3476.247,31-JAN-06:10,3476.247,0.000,0.000,0.000,0.000,0.000,3476.247
+,February,3487120.708,3493.174,10-FEB-06:10,3493.174,0.000,0.000,0.000,0.000,0.000,3493.174
+,March,0.000,0.000,01-MAR-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,April,1492143.893,2486.906,03-APR-05:10,2486.906,0.000,0.000,0.000,0.000,0.000,2486.906
+,May,0.000,0.000,01-MAY-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,June,0.000,0.000,01-JUN-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,July,0.000,0.000,01-JUL-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,August,0.000,0.000,01-AUG-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,September,0.000,0.000,01-SEP-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,October,0.000,0.000,01-OCT-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,November,0.000,0.000,01-NOV-00:10,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,December,4634791.170,2801.991,26-DEC-06:10,2801.991,0.000,0.000,0.000,0.000,0.000,2801.991
+,,,,,,,,,,,
+,Annual Sum or Average,0.148969E+08,,,,0.000,0.000,0.000,0.000,0.000,
+,Minimum of Months,0.000,0.000,,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+,Maximum of Months,5282851.655,3493.174,,3493.174,0.000,0.000,0.000,0.000,0.000,3493.174
+
+

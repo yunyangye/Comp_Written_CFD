@@ -1,0 +1,752 @@
+<FluentXMLReport>
+<version>
+Fluent
+Version: 2d, dp, pbns, lam (2d, double precision, pressure-based, laminar)
+Release: 19.2.0
+Title: 
+</version>
+
+<Models>
+
+Models
+------
+
+   Model                        Settings   
+   -------------------------------------
+   Space                        2D         
+   Time                         Steady     
+   Viscous                      Laminar    
+   Heat Transfer                Enabled    
+   Solidification and Melting   Disabled   
+   Radiation                    None       
+   Species                      Disabled   
+   Coupled Dispersed Phase      Disabled   
+   NOx Pollutants               Disabled   
+   SOx Pollutants               Disabled   
+   Soot                         Disabled   
+   Mercury Pollutants           Disabled   
+
+</Models>
+
+<MaterialProperties>
+Material Properties
+-------------------
+
+   Material: gypsum (solid)
+
+      Property               Units    Method     Value(s)     
+      -----------------------------------------------------
+      Density                kg/m3    constant   2320         
+      Cp (Specific Heat)     j/kg-k   constant   1138         
+      Thermal Conductivity   w/m-k    constant   0.02884561   
+
+   Material: air (fluid)
+
+      Property                        Units     Method                     Value(s)     
+      -------------------------------------------------------------------------------
+      Density                         kg/m3     incompressible-ideal-gas   #f           
+      Cp (Specific Heat)              j/kg-k    constant                   1006.43      
+      Thermal Conductivity            w/m-k     constant                   0.0242       
+      Viscosity                       kg/m-s    constant                   1.7894e-05   
+      Molecular Weight                kg/kmol   constant                   28.966       
+      Thermal Expansion Coefficient   1/k       constant                   0            
+      Speed of Sound                  m/s       none                       #f           
+
+   Material: aluminum (solid)
+
+      Property               Units    Method     Value(s)   
+      ---------------------------------------------------
+      Density                kg/m3    constant   2719       
+      Cp (Specific Heat)     j/kg-k   constant   871        
+      Thermal Conductivity   w/m-k    constant   202.4      
+
+</MaterialProperties>
+
+<CellZoneConditions>
+Cell Zone Conditions
+--------------------
+
+   Zones
+
+      name     id   type    
+      -------------------
+      zone1    12   solid   
+      zone2    13   solid   
+      zone3    14   solid   
+      zone4    15   solid   
+      zone5    16   solid   
+      zone6    17   solid   
+      zone7    18   solid   
+      zone8    19   solid   
+      zone9    20   solid   
+      zone10   21   solid   
+      window   22   fluid   
+
+   Setup Conditions
+
+      zone1
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone2
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone3
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone4
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone5
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone6
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone7
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone8
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone9
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      zone10
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+      window
+
+         Condition       Value   
+         ---------------------
+         Frame Motion?   no      
+
+</CellZoneConditions>
+
+<BoundaryConditions>
+Boundary Conditions
+-------------------
+
+   Zones
+
+      name                    id   type        
+      --------------------------------------
+      wall-75-shadow          87   wall        
+      wall-75                 75   wall        
+      wall-72-shadow          86   wall        
+      wall-72                 72   wall        
+      wall-69-shadow          85   wall        
+      wall-69                 69   wall        
+      wall-66-shadow          84   wall        
+      wall-66                 66   wall        
+      wall-63-shadow          83   wall        
+      wall-63                 63   wall        
+      wall-60-shadow          82   wall        
+      wall-60                 60   wall        
+      wall-57-shadow          81   wall        
+      wall-57                 57   wall        
+      wall-54-shadow          80   wall        
+      wall-54                 54   wall        
+      wall-51-shadow          79   wall        
+      wall-51                 51   wall        
+      wall-24-shadow          78   wall        
+      wall-24                 24   wall        
+      wall-77                 77   wall        
+      wall-76                 76   wall        
+      wall-74                 74   wall        
+      wall-73                 73   wall        
+      wall-71                 71   wall        
+      wall-70                 70   wall        
+      wall-68                 68   wall        
+      wall-67                 67   wall        
+      wall-65                 65   wall        
+      wall-64                 64   wall        
+      wall-62                 62   wall        
+      wall-61                 61   wall        
+      wall-59                 59   wall        
+      wall-58                 58   wall        
+      wall-56                 56   wall        
+      wall-55                 55   wall        
+      wall-53                 53   wall        
+      wall-52                 52   wall        
+      wall-50                 50   wall        
+      wall-49                 49   wall        
+      outdoor                 25   wall        
+      indoor                  26   wall        
+      upper                   27   wall        
+      lower                   28   wall        
+      contact_region-src      29   interface   
+      contact_region-trg      30   interface   
+      contact_region_10-src   31   interface   
+      contact_region_10-trg   32   interface   
+      contact_region_2-src    33   interface   
+      contact_region_2-trg    34   interface   
+      contact_region_3-src    35   interface   
+      contact_region_3-trg    36   interface   
+      contact_region_4-src    37   interface   
+      contact_region_4-trg    38   interface   
+      contact_region_5-src    39   interface   
+      contact_region_5-trg    40   interface   
+      contact_region_6-src    41   interface   
+      contact_region_6-trg    42   interface   
+      contact_region_7-src    43   interface   
+      contact_region_7-trg    44   interface   
+      contact_region_8-src    45   interface   
+      contact_region_8-trg    46   interface   
+      contact_region_9-src    47   interface   
+      contact_region_9-trg    48   interface   
+
+   Setup Conditions
+
+      wall-75-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-75
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-72-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-72
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-69-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-69
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-66-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-66
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-63-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-63
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-60-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-60
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-57-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-57
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-54-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-54
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-51-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-51
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-24-shadow
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            3          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-24
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   3          
+
+      wall-77
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-76
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-74
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-73
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-71
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-70
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-68
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-67
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-65
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-64
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-62
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-61
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-59
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-58
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-56
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-55
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-53
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-52
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      wall-50
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      wall-49
+
+         Condition         Value      
+         --------------------------
+         Material Name     aluminum   
+         Thermal BC Type   1          
+
+      outdoor
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            0          
+         Temperature (k)            308.15     
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      indoor
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            0          
+         Temperature (k)            294.26     
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      upper
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      lower
+
+         Condition                  Value      
+         -----------------------------------
+         Material Name              aluminum   
+         Thermal BC Type            1          
+         Wall Motion                0          
+         Shear Boundary Condition   0          
+
+      contact_region-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_10-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_10-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_2-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_2-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_3-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_3-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_4-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_4-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_5-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_5-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_6-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_6-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_7-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_7-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_8-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_8-trg
+
+         Condition   Value   
+         -----------------
+
+      contact_region_9-src
+
+         Condition   Value   
+         -----------------
+
+      contact_region_9-trg
+
+         Condition   Value   
+         -----------------
+
+</BoundaryConditions>
+
+<SolverSettings>
+Solver Settings
+---------------
+
+   Equations
+
+      Equation   Solved   
+      -----------------
+      Flow       yes      
+      Energy     yes      
+
+   Numerics
+
+      Numeric                         Enabled   
+      ---------------------------------------
+      Absolute Velocity Formulation   yes       
+
+   Relaxation
+
+      Variable      Relaxation Factor   
+      -------------------------------
+      Pressure      0.3                 
+      Density       1                   
+      Body Forces   1                   
+      Momentum      0.7                 
+      Energy        1                   
+
+   Linear Solver
+
+                   Solver     Termination   Residual Reduction   
+      Variable     Type       Criterion     Tolerance            
+      --------------------------------------------------------
+      Pressure     V-Cycle    0.1                                
+      X-Momentum   Flexible   0.1           0.7                  
+      Y-Momentum   Flexible   0.1           0.7                  
+      Energy       F-Cycle    0.1                                
+
+   Pressure-Velocity Coupling
+
+      Parameter   Value    
+      ------------------
+      Type        SIMPLE   
+
+   Discretization Scheme
+
+      Variable   Scheme                
+      ------------------------------
+      Pressure   Second Order          
+      Momentum   Second Order Upwind   
+      Energy     Second Order Upwind   
+
+   Solution Limits
+
+      Quantity                    Limit   
+      ---------------------------------
+      Minimum Absolute Pressure   1       
+      Maximum Absolute Pressure   5e+10   
+      Minimum Temperature         1       
+      Maximum Temperature         5000    
+
+</SolverSettings>
+
+</FluentXMLReport>
